@@ -1,0 +1,97 @@
+// 生物群系配置：调色板 / 敌人池 / 装饰风格 / 环境氛围
+export const BIOMES = {
+  indoor: {
+    id: 'indoor', name: '大建筑室内', sub: '议事厅区',
+    music: 'indoor',
+    floor: ['#6e5a44', '#66543e', '#756046'],
+    floorAccent: '#5a4a38',
+    grout: '#574834',
+    wall: '#4a3c38', wallTop: '#5c4c46', wallLine: '#332a28',
+    accent: '#8c6a3a',
+    obstacleTiles: ['crate', 'desk', 'column', 'meeting', 'cabinet', 'cooler', 'plantt'],
+    decalTiles: ['shells', 'blood', 'scorch'],
+    walls: { window: 0.10, poster: 0.05, whiteboard: 0.04, painting: 0.03, crack: 0.04, sign: 0.02, elevator: 0.015 },
+    ambient: 'indoor',
+    pool: ['guard', 'swat', 'drone', 'turret'],
+    elitePool: ['swat', 'guard', 'drone'],
+    bossId: 'commander',
+    notes: [
+      '便签（会议室）：\n“预算削减第三次驳回。城墙上的探照灯电费倒是批得很快。——会计部，无名”',
+      '墙上的油印通知：\n“宵禁提前至十八时。违者依《治安维持法》第 9 条处置。”\n下面有人用铅笔补了一行小字：“第 9 条之后，就没有条文了。”',
+      '档案残页：\n“……五年前的那次，他们真的差点做到了。差一个街区。”',
+    ],
+  },
+  street: {
+    id: 'street', name: '室外街道', sub: '旧城街区',
+    music: 'street',
+    floor: ['#4a4a52', '#44444c', '#505058'],
+    floorAccent: '#3a3a42',
+    grout: '#3c3c44',
+    wall: '#5a4a3c', wallTop: '#6e5c4a', wallLine: '#3c3229',
+    accent: '#c86a5a',
+    obstacleTiles: ['car', 'crate', 'hydrant', 'column', 'trash', 'booth', 'mailbox', 'stall', 'vendm', 'plantt'],
+    decalTiles: ['puddle', 'shells', 'grate', 'cone', 'blood'],
+    walls: { window: 0.10, graffiti: 0.07, neon: 0.06, crack: 0.04, sign: 0.02, poster: 0.02 },
+    ambient: 'street',
+    pool: ['gang', 'dog', 'riot', 'biker', 'sniper'],
+    elitePool: ['riot', 'biker', 'dog'],
+    bossId: 'riotcrawler',
+    notes: [
+      '墙上涂鸦：\n“面包、和平、不宵禁”\n“面包、和平、不宵禁”被红漆盖过，又被白漆盖过，又被人描了一遍。',
+      '电线杆上的寻人启事：\n“寻找五年前集会夜失散的丈夫。左耳后有疤。我还在老面包房等。”',
+      '报亭残留的旧报纸：\n头版：《戒严第七月，秩序重回街道》。第 4 版角落：《面包房三度被征用，店主不详》。',
+    ],
+  },
+  highway: {
+    id: 'highway', name: '城市外公路', sub: '七号公路',
+    music: 'highway',
+    floor: ['#5a5044', '#544a3e', '#605648'],
+    floorAccent: '#453d33',
+    grout: '#4a4238',
+    wall: '#6a5a42', wallTop: '#7c6a4e', wallLine: '#463a2c',
+    accent: '#d8a04a',
+    obstacleTiles: ['car', 'crate', 'rail', 'rubble', 'tiers', 'deadtree', 'sandbag', 'campfire', 'roadsign'],
+    decalTiles: ['shells', 'scorch', 'puddle', 'blood'],
+    walls: { graffiti: 0.07, crack: 0.05, sign: 0.03, banner: 0.02, window: 0.03 },
+    ambient: 'highway',
+    pool: ['scav', 'gang', 'biker', 'sniper', 'drone'],
+    elitePool: ['scav', 'biker', 'sniper'],
+    bossId: 'sandstorm',
+    notes: [
+      '公路牌背面：\n“距城 12 公里。前方检查站已废弃。”\n有人喷漆：“废弃的是检查站，不是路。”',
+      '丢弃的行军日记：\n“车队在桥头散了。老周往北，我们往南。等路通了，谁先回去谁去面包房看看。”',
+      '加油站的留言簿：\n“今日仅剩柴油 40 升，愿走者自取，愿留者共饮。——守站人 最后一条”',
+    ],
+  },
+  // ---- 第四区域：议事厅（固定最终层） ----
+  council: {
+    id: 'council', name: '议事厅', sub: '最后一级台阶',
+    music: 'indoor',
+    floor: ['#8a8a92', '#82828a', '#929299'],
+    floorAccent: '#6e6e78',
+    grout: '#6a6a74',
+    wall: '#463c44', wallTop: '#5a4c56', wallLine: '#2e2830',
+    accent: '#8c2f3a',
+    obstacleTiles: ['column', 'meeting', 'cabinet', 'plantt', 'crate'],
+    decalTiles: ['blood', 'shells', 'scorch'],
+    walls: { painting: 0.05, banner: 0.07, window: 0.07, crack: 0.03, elevator: 0.02 },
+    ambient: 'council',
+    pool: ['guard', 'swat', 'riot', 'turret', 'sniper', 'biker'],
+    elitePool: ['swat', 'riot', 'sniper'],
+    bossId: 'speaker',
+    notes: [
+      '议事厅立柱上的铭牌：\n“本厅重建于戒严元年。旧厅在五年前的那个夜里，烧了整整六个小时。”',
+      '被撕掉一半的议程：\n“第七项：关于永久化《治安维持法》之提议……附议：全体。反对：——”\n后面的字在被撕掉的那一半上。',
+      '讲台抽屉里的信：\n“父亲：议长说您当年投了赞成票。我不信。所以我来问。——执槌者 亲笔”',
+    ],
+  },
+};
+
+// 城市演进档案：通关次数达到门槛后，街头开始出现这些
+export const CITY_NOTES = [
+  { stage: 1, text: '墙上的新涂鸦：\n一颗五年前被刷掉的星星，被人重新描了出来。描得很小心，像怕吵醒谁。' },
+  { stage: 2, text: '电线杆上的手写通告：\n“面包房旧址，每周三。带灯来。”\n没有署名。纸角有一颗用铅笔画的星星。' },
+  { stage: 3, text: '从议事厅窗口飘下来的一页：\n“……戒严第七年，本市面包房营业率：0%。我们到底在维持什么？——一个准备辞职的书记员”' },
+];
+
+export const BIOME_IDS = ['indoor', 'street', 'highway'];

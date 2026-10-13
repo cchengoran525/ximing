@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>夕明 · 余烬之城</title>
+<style>
+  html,body{margin:0;height:100%;background:#0a0a0f;overflow:hidden}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  canvas{image-rendering:pixelated;image-rendering:crisp-edges;background:#000}
+  #hint{position:fixed;left:10px;bottom:8px;color:#4d4d5a;font:12px monospace;user-select:none;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="512" height="288"></canvas></div>
+<div id="hint">WASD移动 · 鼠标瞄准/左键射击 · Space翻滚 · F技能 · E交互 · Q换枪 · Esc菜单 · M静音</div>
+<script>
+  window.__errs = [];
+  window.addEventListener('error', e => window.__errs.push('ERR: ' + e.message + ' @ ' + (e.filename || '').split('/').pop() + ':' + e.lineno));
+  window.addEventListener('unhandledrejection', e => window.__errs.push('REJ: ' + String(e.reason && e.reason.stack || e.reason)));
+</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

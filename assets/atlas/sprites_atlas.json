@@ -1,0 +1,303 @@
+{
+  "image": "sprites_atlas.png",
+  "scale": 1,
+  "source": "本目录下 sprites/",
+  "sprites": [
+    {
+      "name": "sprites/speaker.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "label": "Boss · 议长"
+    },
+    {
+      "name": "sprites/skill_bomb.png",
+      "x": 34,
+      "y": 0,
+      "w": 10,
+      "h": 10,
+      "label": "技能 · 雷管"
+    },
+    {
+      "name": "sprites/skill_decoy.png",
+      "x": 68,
+      "y": 0,
+      "w": 10,
+      "h": 10,
+      "label": "技能 · 诱饵"
+    },
+    {
+      "name": "sprites/skill_bandage.png",
+      "x": 102,
+      "y": 0,
+      "w": 10,
+      "h": 10,
+      "label": "技能 · 绷带包"
+    },
+    {
+      "name": "sprites/player_down_0.png",
+      "x": 136,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "夕明 · 朝下（站立）"
+    },
+    {
+      "name": "sprites/player_down_1.png",
+      "x": 170,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "夕明 · 朝下（迈步）"
+    },
+    {
+      "name": "sprites/player_up_0.png",
+      "x": 204,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "夕明 · 朝上（站立）"
+    },
+    {
+      "name": "sprites/player_up_1.png",
+      "x": 238,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "夕明 · 朝上（迈步）"
+    },
+    {
+      "name": "sprites/player_side_0.png",
+      "x": 272,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "夕明 · 侧面（站立，朝右）"
+    },
+    {
+      "name": "sprites/player_side_1.png",
+      "x": 306,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "夕明 · 侧面（迈步，朝右）"
+    },
+    {
+      "name": "sprites/qiqing_down_0.png",
+      "x": 340,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "齐青 · 朝下（站立）"
+    },
+    {
+      "name": "sprites/qiqing_down_1.png",
+      "x": 374,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "齐青 · 朝下（迈步）"
+    },
+    {
+      "name": "sprites/qiqing_up_0.png",
+      "x": 408,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "齐青 · 朝上"
+    },
+    {
+      "name": "sprites/qiqing_side_0.png",
+      "x": 442,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "齐青 · 侧面（朝右）"
+    },
+    {
+      "name": "sprites/guard.png",
+      "x": 476,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 警卫"
+    },
+    {
+      "name": "sprites/swat.png",
+      "x": 0,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 特警"
+    },
+    {
+      "name": "sprites/drone.png",
+      "x": 34,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 巡逻无人机"
+    },
+    {
+      "name": "sprites/turret.png",
+      "x": 68,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 哨戒炮塔"
+    },
+    {
+      "name": "sprites/dog.png",
+      "x": 102,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 警犬"
+    },
+    {
+      "name": "sprites/riot.png",
+      "x": 136,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 镇暴警"
+    },
+    {
+      "name": "sprites/biker.png",
+      "x": 170,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 摩托兵"
+    },
+    {
+      "name": "sprites/sniper.png",
+      "x": 204,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 狙击手"
+    },
+    {
+      "name": "sprites/scav.png",
+      "x": 238,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 拾荒者"
+    },
+    {
+      "name": "sprites/gang.png",
+      "x": 272,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "敌人 · 流弹兵"
+    },
+    {
+      "name": "sprites/commander.png",
+      "x": 306,
+      "y": 34,
+      "w": 32,
+      "h": 32,
+      "label": "Boss · 卫戍司令官"
+    },
+    {
+      "name": "sprites/riotcrawler.png",
+      "x": 340,
+      "y": 34,
+      "w": 32,
+      "h": 32,
+      "label": "Boss · 铁幕"
+    },
+    {
+      "name": "sprites/sandstorm.png",
+      "x": 374,
+      "y": 34,
+      "w": 32,
+      "h": 32,
+      "label": "Boss · 沙暴"
+    },
+    {
+      "name": "sprites/chest.png",
+      "x": 408,
+      "y": 34,
+      "w": 16,
+      "h": 16,
+      "label": "道具 · 宝箱"
+    },
+    {
+      "name": "sprites/vend.png",
+      "x": 442,
+      "y": 34,
+      "w": 17,
+      "h": 16,
+      "label": "道具 · 售货机"
+    },
+    {
+      "name": "sprites/heart.png",
+      "x": 476,
+      "y": 34,
+      "w": 7,
+      "h": 7,
+      "label": "道具 · 生命补给"
+    },
+    {
+      "name": "sprites/gear.png",
+      "x": 0,
+      "y": 68,
+      "w": 7,
+      "h": 7,
+      "label": "道具 · 零件"
+    },
+    {
+      "name": "sprites/energy.png",
+      "x": 34,
+      "y": 68,
+      "w": 7,
+      "h": 7,
+      "label": "道具 · 能量电池"
+    },
+    {
+      "name": "sprites/umbrella.png",
+      "x": 68,
+      "y": 68,
+      "w": 5,
+      "h": 11,
+      "label": "道具 · 齐青的长伞"
+    },
+    {
+      "name": "sprites/radio.png",
+      "x": 102,
+      "y": 68,
+      "w": 14,
+      "h": 10,
+      "label": "家具 · 收音机"
+    },
+    {
+      "name": "sprites/bookshelf.png",
+      "x": 136,
+      "y": 68,
+      "w": 16,
+      "h": 13,
+      "label": "家具 · 书架"
+    },
+    {
+      "name": "sprites/bed.png",
+      "x": 170,
+      "y": 68,
+      "w": 22,
+      "h": 9,
+      "label": "家具 · 床"
+    },
+    {
+      "name": "sprites/bench.png",
+      "x": 204,
+      "y": 68,
+      "w": 20,
+      "h": 6,
+      "label": "家具 · 长凳"
+    }
+  ]
+}

@@ -1,0 +1,5923 @@
+{
+  "name": "夕明 · 余烬之城 — 美术素材包",
+  "version": 1,
+  "generatedAt": "2026-10-14T10:29:41.193Z",
+  "tileSize": 16,
+  "scales": [
+    "1x",
+    "@2x",
+    "@4x",
+    "@8x"
+  ],
+  "counts": {
+    "sprites": 37,
+    "tiles": 604,
+    "props": 34,
+    "vehicles": 8,
+    "weapons": 42,
+    "total": 843
+  },
+  "files": [
+    {
+      "path": "sprites/speaker.png",
+      "label": "Boss · 议长",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@2x/speaker.png",
+      "label": "Boss · 议长",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@4x/speaker.png",
+      "label": "Boss · 议长",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites@8x/speaker.png",
+      "label": "Boss · 议长",
+      "category": "sprite",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "path": "sprites/skill_bomb.png",
+      "label": "技能 · 雷管",
+      "category": "sprite",
+      "w": 10,
+      "h": 10
+    },
+    {
+      "path": "sprites@2x/skill_bomb.png",
+      "label": "技能 · 雷管",
+      "category": "sprite",
+      "w": 20,
+      "h": 20
+    },
+    {
+      "path": "sprites@4x/skill_bomb.png",
+      "label": "技能 · 雷管",
+      "category": "sprite",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "path": "sprites@8x/skill_bomb.png",
+      "label": "技能 · 雷管",
+      "category": "sprite",
+      "w": 80,
+      "h": 80
+    },
+    {
+      "path": "sprites/skill_decoy.png",
+      "label": "技能 · 诱饵",
+      "category": "sprite",
+      "w": 10,
+      "h": 10
+    },
+    {
+      "path": "sprites@2x/skill_decoy.png",
+      "label": "技能 · 诱饵",
+      "category": "sprite",
+      "w": 20,
+      "h": 20
+    },
+    {
+      "path": "sprites@4x/skill_decoy.png",
+      "label": "技能 · 诱饵",
+      "category": "sprite",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "path": "sprites@8x/skill_decoy.png",
+      "label": "技能 · 诱饵",
+      "category": "sprite",
+      "w": 80,
+      "h": 80
+    },
+    {
+      "path": "sprites/skill_bandage.png",
+      "label": "技能 · 绷带包",
+      "category": "sprite",
+      "w": 10,
+      "h": 10
+    },
+    {
+      "path": "sprites@2x/skill_bandage.png",
+      "label": "技能 · 绷带包",
+      "category": "sprite",
+      "w": 20,
+      "h": 20
+    },
+    {
+      "path": "sprites@4x/skill_bandage.png",
+      "label": "技能 · 绷带包",
+      "category": "sprite",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "path": "sprites@8x/skill_bandage.png",
+      "label": "技能 · 绷带包",
+      "category": "sprite",
+      "w": 80,
+      "h": 80
+    },
+    {
+      "path": "sprites/player_down_0.png",
+      "label": "夕明 · 朝下（站立）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/player_down_0.png",
+      "label": "夕明 · 朝下（站立）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/player_down_0.png",
+      "label": "夕明 · 朝下（站立）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/player_down_0.png",
+      "label": "夕明 · 朝下（站立）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/player_down_1.png",
+      "label": "夕明 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/player_down_1.png",
+      "label": "夕明 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/player_down_1.png",
+      "label": "夕明 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/player_down_1.png",
+      "label": "夕明 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/player_up_0.png",
+      "label": "夕明 · 朝上（站立）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/player_up_0.png",
+      "label": "夕明 · 朝上（站立）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/player_up_0.png",
+      "label": "夕明 · 朝上（站立）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/player_up_0.png",
+      "label": "夕明 · 朝上（站立）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/player_up_1.png",
+      "label": "夕明 · 朝上（迈步）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/player_up_1.png",
+      "label": "夕明 · 朝上（迈步）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/player_up_1.png",
+      "label": "夕明 · 朝上（迈步）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/player_up_1.png",
+      "label": "夕明 · 朝上（迈步）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/player_side_0.png",
+      "label": "夕明 · 侧面（站立，朝右）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/player_side_0.png",
+      "label": "夕明 · 侧面（站立，朝右）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/player_side_0.png",
+      "label": "夕明 · 侧面（站立，朝右）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/player_side_0.png",
+      "label": "夕明 · 侧面（站立，朝右）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/player_side_1.png",
+      "label": "夕明 · 侧面（迈步，朝右）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/player_side_1.png",
+      "label": "夕明 · 侧面（迈步，朝右）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/player_side_1.png",
+      "label": "夕明 · 侧面（迈步，朝右）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/player_side_1.png",
+      "label": "夕明 · 侧面（迈步，朝右）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/qiqing_down_0.png",
+      "label": "齐青 · 朝下（站立）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/qiqing_down_0.png",
+      "label": "齐青 · 朝下（站立）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/qiqing_down_0.png",
+      "label": "齐青 · 朝下（站立）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/qiqing_down_0.png",
+      "label": "齐青 · 朝下（站立）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/qiqing_down_1.png",
+      "label": "齐青 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/qiqing_down_1.png",
+      "label": "齐青 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/qiqing_down_1.png",
+      "label": "齐青 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/qiqing_down_1.png",
+      "label": "齐青 · 朝下（迈步）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/qiqing_up_0.png",
+      "label": "齐青 · 朝上",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/qiqing_up_0.png",
+      "label": "齐青 · 朝上",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/qiqing_up_0.png",
+      "label": "齐青 · 朝上",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/qiqing_up_0.png",
+      "label": "齐青 · 朝上",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/qiqing_side_0.png",
+      "label": "齐青 · 侧面（朝右）",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/qiqing_side_0.png",
+      "label": "齐青 · 侧面（朝右）",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/qiqing_side_0.png",
+      "label": "齐青 · 侧面（朝右）",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/qiqing_side_0.png",
+      "label": "齐青 · 侧面（朝右）",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/guard.png",
+      "label": "敌人 · 警卫",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/guard.png",
+      "label": "敌人 · 警卫",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/guard.png",
+      "label": "敌人 · 警卫",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/guard.png",
+      "label": "敌人 · 警卫",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/swat.png",
+      "label": "敌人 · 特警",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/swat.png",
+      "label": "敌人 · 特警",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/swat.png",
+      "label": "敌人 · 特警",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/swat.png",
+      "label": "敌人 · 特警",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/drone.png",
+      "label": "敌人 · 巡逻无人机",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/drone.png",
+      "label": "敌人 · 巡逻无人机",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/drone.png",
+      "label": "敌人 · 巡逻无人机",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/drone.png",
+      "label": "敌人 · 巡逻无人机",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/turret.png",
+      "label": "敌人 · 哨戒炮塔",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/turret.png",
+      "label": "敌人 · 哨戒炮塔",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/turret.png",
+      "label": "敌人 · 哨戒炮塔",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/turret.png",
+      "label": "敌人 · 哨戒炮塔",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/dog.png",
+      "label": "敌人 · 警犬",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/dog.png",
+      "label": "敌人 · 警犬",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/dog.png",
+      "label": "敌人 · 警犬",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/dog.png",
+      "label": "敌人 · 警犬",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/riot.png",
+      "label": "敌人 · 镇暴警",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/riot.png",
+      "label": "敌人 · 镇暴警",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/riot.png",
+      "label": "敌人 · 镇暴警",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/riot.png",
+      "label": "敌人 · 镇暴警",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/biker.png",
+      "label": "敌人 · 摩托兵",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/biker.png",
+      "label": "敌人 · 摩托兵",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/biker.png",
+      "label": "敌人 · 摩托兵",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/biker.png",
+      "label": "敌人 · 摩托兵",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/sniper.png",
+      "label": "敌人 · 狙击手",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/sniper.png",
+      "label": "敌人 · 狙击手",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/sniper.png",
+      "label": "敌人 · 狙击手",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/sniper.png",
+      "label": "敌人 · 狙击手",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/scav.png",
+      "label": "敌人 · 拾荒者",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/scav.png",
+      "label": "敌人 · 拾荒者",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/scav.png",
+      "label": "敌人 · 拾荒者",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/scav.png",
+      "label": "敌人 · 拾荒者",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/gang.png",
+      "label": "敌人 · 流弹兵",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/gang.png",
+      "label": "敌人 · 流弹兵",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/gang.png",
+      "label": "敌人 · 流弹兵",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/gang.png",
+      "label": "敌人 · 流弹兵",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/commander.png",
+      "label": "Boss · 卫戍司令官",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@2x/commander.png",
+      "label": "Boss · 卫戍司令官",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@4x/commander.png",
+      "label": "Boss · 卫戍司令官",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites@8x/commander.png",
+      "label": "Boss · 卫戍司令官",
+      "category": "sprite",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "path": "sprites/riotcrawler.png",
+      "label": "Boss · 铁幕",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@2x/riotcrawler.png",
+      "label": "Boss · 铁幕",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@4x/riotcrawler.png",
+      "label": "Boss · 铁幕",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites@8x/riotcrawler.png",
+      "label": "Boss · 铁幕",
+      "category": "sprite",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "path": "sprites/sandstorm.png",
+      "label": "Boss · 沙暴",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@2x/sandstorm.png",
+      "label": "Boss · 沙暴",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@4x/sandstorm.png",
+      "label": "Boss · 沙暴",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites@8x/sandstorm.png",
+      "label": "Boss · 沙暴",
+      "category": "sprite",
+      "w": 256,
+      "h": 256
+    },
+    {
+      "path": "sprites/chest.png",
+      "label": "道具 · 宝箱",
+      "category": "sprite",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/chest.png",
+      "label": "道具 · 宝箱",
+      "category": "sprite",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/chest.png",
+      "label": "道具 · 宝箱",
+      "category": "sprite",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/chest.png",
+      "label": "道具 · 宝箱",
+      "category": "sprite",
+      "w": 128,
+      "h": 128
+    },
+    {
+      "path": "sprites/vend.png",
+      "label": "道具 · 售货机",
+      "category": "sprite",
+      "w": 17,
+      "h": 16
+    },
+    {
+      "path": "sprites@2x/vend.png",
+      "label": "道具 · 售货机",
+      "category": "sprite",
+      "w": 34,
+      "h": 32
+    },
+    {
+      "path": "sprites@4x/vend.png",
+      "label": "道具 · 售货机",
+      "category": "sprite",
+      "w": 68,
+      "h": 64
+    },
+    {
+      "path": "sprites@8x/vend.png",
+      "label": "道具 · 售货机",
+      "category": "sprite",
+      "w": 136,
+      "h": 128
+    },
+    {
+      "path": "sprites/heart.png",
+      "label": "道具 · 生命补给",
+      "category": "sprite",
+      "w": 7,
+      "h": 7
+    },
+    {
+      "path": "sprites@2x/heart.png",
+      "label": "道具 · 生命补给",
+      "category": "sprite",
+      "w": 14,
+      "h": 14
+    },
+    {
+      "path": "sprites@4x/heart.png",
+      "label": "道具 · 生命补给",
+      "category": "sprite",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "path": "sprites@8x/heart.png",
+      "label": "道具 · 生命补给",
+      "category": "sprite",
+      "w": 56,
+      "h": 56
+    },
+    {
+      "path": "sprites/gear.png",
+      "label": "道具 · 零件",
+      "category": "sprite",
+      "w": 7,
+      "h": 7
+    },
+    {
+      "path": "sprites@2x/gear.png",
+      "label": "道具 · 零件",
+      "category": "sprite",
+      "w": 14,
+      "h": 14
+    },
+    {
+      "path": "sprites@4x/gear.png",
+      "label": "道具 · 零件",
+      "category": "sprite",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "path": "sprites@8x/gear.png",
+      "label": "道具 · 零件",
+      "category": "sprite",
+      "w": 56,
+      "h": 56
+    },
+    {
+      "path": "sprites/energy.png",
+      "label": "道具 · 能量电池",
+      "category": "sprite",
+      "w": 7,
+      "h": 7
+    },
+    {
+      "path": "sprites@2x/energy.png",
+      "label": "道具 · 能量电池",
+      "category": "sprite",
+      "w": 14,
+      "h": 14
+    },
+    {
+      "path": "sprites@4x/energy.png",
+      "label": "道具 · 能量电池",
+      "category": "sprite",
+      "w": 28,
+      "h": 28
+    },
+    {
+      "path": "sprites@8x/energy.png",
+      "label": "道具 · 能量电池",
+      "category": "sprite",
+      "w": 56,
+      "h": 56
+    },
+    {
+      "path": "sprites/umbrella.png",
+      "label": "道具 · 齐青的长伞",
+      "category": "sprite",
+      "w": 5,
+      "h": 11
+    },
+    {
+      "path": "sprites@2x/umbrella.png",
+      "label": "道具 · 齐青的长伞",
+      "category": "sprite",
+      "w": 10,
+      "h": 22
+    },
+    {
+      "path": "sprites@4x/umbrella.png",
+      "label": "道具 · 齐青的长伞",
+      "category": "sprite",
+      "w": 20,
+      "h": 44
+    },
+    {
+      "path": "sprites@8x/umbrella.png",
+      "label": "道具 · 齐青的长伞",
+      "category": "sprite",
+      "w": 40,
+      "h": 88
+    },
+    {
+      "path": "sprites/radio.png",
+      "label": "家具 · 收音机",
+      "category": "sprite",
+      "w": 14,
+      "h": 10
+    },
+    {
+      "path": "sprites@2x/radio.png",
+      "label": "家具 · 收音机",
+      "category": "sprite",
+      "w": 28,
+      "h": 20
+    },
+    {
+      "path": "sprites@4x/radio.png",
+      "label": "家具 · 收音机",
+      "category": "sprite",
+      "w": 56,
+      "h": 40
+    },
+    {
+      "path": "sprites@8x/radio.png",
+      "label": "家具 · 收音机",
+      "category": "sprite",
+      "w": 112,
+      "h": 80
+    },
+    {
+      "path": "sprites/bookshelf.png",
+      "label": "家具 · 书架",
+      "category": "sprite",
+      "w": 16,
+      "h": 13
+    },
+    {
+      "path": "sprites@2x/bookshelf.png",
+      "label": "家具 · 书架",
+      "category": "sprite",
+      "w": 32,
+      "h": 26
+    },
+    {
+      "path": "sprites@4x/bookshelf.png",
+      "label": "家具 · 书架",
+      "category": "sprite",
+      "w": 64,
+      "h": 52
+    },
+    {
+      "path": "sprites@8x/bookshelf.png",
+      "label": "家具 · 书架",
+      "category": "sprite",
+      "w": 128,
+      "h": 104
+    },
+    {
+      "path": "sprites/bed.png",
+      "label": "家具 · 床",
+      "category": "sprite",
+      "w": 22,
+      "h": 9
+    },
+    {
+      "path": "sprites@2x/bed.png",
+      "label": "家具 · 床",
+      "category": "sprite",
+      "w": 44,
+      "h": 18
+    },
+    {
+      "path": "sprites@4x/bed.png",
+      "label": "家具 · 床",
+      "category": "sprite",
+      "w": 88,
+      "h": 36
+    },
+    {
+      "path": "sprites@8x/bed.png",
+      "label": "家具 · 床",
+      "category": "sprite",
+      "w": 176,
+      "h": 72
+    },
+    {
+      "path": "sprites/bench.png",
+      "label": "家具 · 长凳",
+      "category": "sprite",
+      "w": 20,
+      "h": 6
+    },
+    {
+      "path": "sprites@2x/bench.png",
+      "label": "家具 · 长凳",
+      "category": "sprite",
+      "w": 40,
+      "h": 12
+    },
+    {
+      "path": "sprites@4x/bench.png",
+      "label": "家具 · 长凳",
+      "category": "sprite",
+      "w": 80,
+      "h": 24
+    },
+    {
+      "path": "sprites@8x/bench.png",
+      "label": "家具 · 长凳",
+      "category": "sprite",
+      "w": 160,
+      "h": 48
+    },
+    {
+      "path": "tiles/indoor/floor.png",
+      "label": "大建筑室内 · 地面 1",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/floor.png",
+      "label": "大建筑室内 · 地面 1",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/floor.png",
+      "label": "大建筑室内 · 地面 1",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/floor_2.png",
+      "label": "大建筑室内 · 地面 2",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/floor_2.png",
+      "label": "大建筑室内 · 地面 2",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/floor_2.png",
+      "label": "大建筑室内 · 地面 2",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/floor_3.png",
+      "label": "大建筑室内 · 地面 3",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/floor_3.png",
+      "label": "大建筑室内 · 地面 3",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/floor_3.png",
+      "label": "大建筑室内 · 地面 3",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/carpet.png",
+      "label": "大建筑室内 · 红毯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/carpet.png",
+      "label": "大建筑室内 · 红毯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/carpet.png",
+      "label": "大建筑室内 · 红毯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall.png",
+      "label": "大建筑室内 · 墙",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall.png",
+      "label": "大建筑室内 · 墙",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall.png",
+      "label": "大建筑室内 · 墙",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_window.png",
+      "label": "大建筑室内 · 墙 · 窗",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_window.png",
+      "label": "大建筑室内 · 墙 · 窗",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_window.png",
+      "label": "大建筑室内 · 墙 · 窗",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_poster.png",
+      "label": "大建筑室内 · 墙 · 海报",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_poster.png",
+      "label": "大建筑室内 · 墙 · 海报",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_poster.png",
+      "label": "大建筑室内 · 墙 · 海报",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_graffiti.png",
+      "label": "大建筑室内 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_graffiti.png",
+      "label": "大建筑室内 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_graffiti.png",
+      "label": "大建筑室内 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_crack.png",
+      "label": "大建筑室内 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_crack.png",
+      "label": "大建筑室内 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_crack.png",
+      "label": "大建筑室内 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_sign.png",
+      "label": "大建筑室内 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_sign.png",
+      "label": "大建筑室内 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_sign.png",
+      "label": "大建筑室内 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_neon.png",
+      "label": "大建筑室内 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_neon.png",
+      "label": "大建筑室内 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_neon.png",
+      "label": "大建筑室内 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_whiteboard.png",
+      "label": "大建筑室内 · 墙 · 白板",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_whiteboard.png",
+      "label": "大建筑室内 · 墙 · 白板",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_whiteboard.png",
+      "label": "大建筑室内 · 墙 · 白板",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_painting.png",
+      "label": "大建筑室内 · 墙 · 挂画",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_painting.png",
+      "label": "大建筑室内 · 墙 · 挂画",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_painting.png",
+      "label": "大建筑室内 · 墙 · 挂画",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_banner.png",
+      "label": "大建筑室内 · 墙 · 横幅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_banner.png",
+      "label": "大建筑室内 · 墙 · 横幅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_banner.png",
+      "label": "大建筑室内 · 墙 · 横幅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/wall_elevator.png",
+      "label": "大建筑室内 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/wall_elevator.png",
+      "label": "大建筑室内 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/wall_elevator.png",
+      "label": "大建筑室内 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/column.png",
+      "label": "大建筑室内 · 柱子",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/column.png",
+      "label": "大建筑室内 · 柱子",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/column.png",
+      "label": "大建筑室内 · 柱子",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/crate.png",
+      "label": "大建筑室内 · 木箱",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/crate.png",
+      "label": "大建筑室内 · 木箱",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/crate.png",
+      "label": "大建筑室内 · 木箱",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/desk.png",
+      "label": "大建筑室内 · 办公桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/desk.png",
+      "label": "大建筑室内 · 办公桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/desk.png",
+      "label": "大建筑室内 · 办公桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/car.png",
+      "label": "大建筑室内 · 报废车",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/car.png",
+      "label": "大建筑室内 · 报废车",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/car.png",
+      "label": "大建筑室内 · 报废车",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/rail.png",
+      "label": "大建筑室内 · 护栏",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/rail.png",
+      "label": "大建筑室内 · 护栏",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/rail.png",
+      "label": "大建筑室内 · 护栏",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/pump.png",
+      "label": "大建筑室内 · 加油机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/pump.png",
+      "label": "大建筑室内 · 加油机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/pump.png",
+      "label": "大建筑室内 · 加油机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/rubble.png",
+      "label": "大建筑室内 · 瓦砾",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/rubble.png",
+      "label": "大建筑室内 · 瓦砾",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/rubble.png",
+      "label": "大建筑室内 · 瓦砾",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/hydrant.png",
+      "label": "大建筑室内 · 消防栓",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/hydrant.png",
+      "label": "大建筑室内 · 消防栓",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/hydrant.png",
+      "label": "大建筑室内 · 消防栓",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/sand.png",
+      "label": "大建筑室内 · 沙地",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/sand.png",
+      "label": "大建筑室内 · 沙地",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/sand.png",
+      "label": "大建筑室内 · 沙地",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/meeting_table.png",
+      "label": "大建筑室内 · 会议长桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/meeting_table.png",
+      "label": "大建筑室内 · 会议长桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/meeting_table.png",
+      "label": "大建筑室内 · 会议长桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/cabinet.png",
+      "label": "大建筑室内 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/cabinet.png",
+      "label": "大建筑室内 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/cabinet.png",
+      "label": "大建筑室内 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/cooler.png",
+      "label": "大建筑室内 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/cooler.png",
+      "label": "大建筑室内 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/cooler.png",
+      "label": "大建筑室内 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/vending_machine.png",
+      "label": "大建筑室内 · 室外售货机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/vending_machine.png",
+      "label": "大建筑室内 · 室外售货机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/vending_machine.png",
+      "label": "大建筑室内 · 室外售货机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/trash_can.png",
+      "label": "大建筑室内 · 垃圾桶",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/trash_can.png",
+      "label": "大建筑室内 · 垃圾桶",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/trash_can.png",
+      "label": "大建筑室内 · 垃圾桶",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/phone_booth.png",
+      "label": "大建筑室内 · 电话亭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/phone_booth.png",
+      "label": "大建筑室内 · 电话亭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/phone_booth.png",
+      "label": "大建筑室内 · 电话亭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/mailbox.png",
+      "label": "大建筑室内 · 邮筒",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/mailbox.png",
+      "label": "大建筑室内 · 邮筒",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/mailbox.png",
+      "label": "大建筑室内 · 邮筒",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/tire_stack.png",
+      "label": "大建筑室内 · 轮胎堆",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/tire_stack.png",
+      "label": "大建筑室内 · 轮胎堆",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/tire_stack.png",
+      "label": "大建筑室内 · 轮胎堆",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/dead_tree.png",
+      "label": "大建筑室内 · 枯树",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/dead_tree.png",
+      "label": "大建筑室内 · 枯树",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/dead_tree.png",
+      "label": "大建筑室内 · 枯树",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/sandbags.png",
+      "label": "大建筑室内 · 沙袋",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/sandbags.png",
+      "label": "大建筑室内 · 沙袋",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/sandbags.png",
+      "label": "大建筑室内 · 沙袋",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/campfire.png",
+      "label": "大建筑室内 · 篝火",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/campfire.png",
+      "label": "大建筑室内 · 篝火",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/campfire.png",
+      "label": "大建筑室内 · 篝火",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/road_sign.png",
+      "label": "大建筑室内 · 路牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/road_sign.png",
+      "label": "大建筑室内 · 路牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/road_sign.png",
+      "label": "大建筑室内 · 路牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/stall.png",
+      "label": "大建筑室内 · 路边摊",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/stall.png",
+      "label": "大建筑室内 · 路边摊",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/stall.png",
+      "label": "大建筑室内 · 路边摊",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/potted_plant.png",
+      "label": "大建筑室内 · 盆栽",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/potted_plant.png",
+      "label": "大建筑室内 · 盆栽",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/potted_plant.png",
+      "label": "大建筑室内 · 盆栽",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/decal_puddle.png",
+      "label": "大建筑室内 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/decal_puddle.png",
+      "label": "大建筑室内 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/decal_puddle.png",
+      "label": "大建筑室内 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/decal_blood.png",
+      "label": "大建筑室内 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/decal_blood.png",
+      "label": "大建筑室内 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/decal_blood.png",
+      "label": "大建筑室内 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/decal_shells.png",
+      "label": "大建筑室内 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/decal_shells.png",
+      "label": "大建筑室内 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/decal_shells.png",
+      "label": "大建筑室内 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/decal_traffic_cone.png",
+      "label": "大建筑室内 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/decal_traffic_cone.png",
+      "label": "大建筑室内 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/decal_traffic_cone.png",
+      "label": "大建筑室内 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/decal_grate.png",
+      "label": "大建筑室内 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/decal_grate.png",
+      "label": "大建筑室内 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/decal_grate.png",
+      "label": "大建筑室内 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/decal_scorch.png",
+      "label": "大建筑室内 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/decal_scorch.png",
+      "label": "大建筑室内 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/decal_scorch.png",
+      "label": "大建筑室内 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/road.png",
+      "label": "大建筑室内 · 公路路面",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/road.png",
+      "label": "大建筑室内 · 公路路面",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/road.png",
+      "label": "大建筑室内 · 公路路面",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/rails.png",
+      "label": "大建筑室内 · 铁轨",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/rails.png",
+      "label": "大建筑室内 · 铁轨",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/rails.png",
+      "label": "大建筑室内 · 铁轨",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/glass.png",
+      "label": "大建筑室内 · 玻璃隔断",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/glass.png",
+      "label": "大建筑室内 · 玻璃隔断",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/glass.png",
+      "label": "大建筑室内 · 玻璃隔断",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/street_lamp.png",
+      "label": "大建筑室内 · 路灯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/street_lamp.png",
+      "label": "大建筑室内 · 路灯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/street_lamp.png",
+      "label": "大建筑室内 · 路灯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/street_lamp_broken.png",
+      "label": "大建筑室内 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@2x/street_lamp_broken.png",
+      "label": "大建筑室内 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/indoor@4x/street_lamp_broken.png",
+      "label": "大建筑室内 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/gate_locked.png",
+      "label": "大建筑室内 · 闸门 · 落下",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@4x/gate_locked.png",
+      "label": "大建筑室内 · 闸门 · 落下",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/indoor/gate_open.png",
+      "label": "大建筑室内 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/indoor@4x/gate_open.png",
+      "label": "大建筑室内 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/floor.png",
+      "label": "室外街道 · 地面 1",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/floor.png",
+      "label": "室外街道 · 地面 1",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/floor.png",
+      "label": "室外街道 · 地面 1",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/floor_2.png",
+      "label": "室外街道 · 地面 2",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/floor_2.png",
+      "label": "室外街道 · 地面 2",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/floor_2.png",
+      "label": "室外街道 · 地面 2",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/floor_3.png",
+      "label": "室外街道 · 地面 3",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/floor_3.png",
+      "label": "室外街道 · 地面 3",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/floor_3.png",
+      "label": "室外街道 · 地面 3",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/carpet.png",
+      "label": "室外街道 · 红毯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/carpet.png",
+      "label": "室外街道 · 红毯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/carpet.png",
+      "label": "室外街道 · 红毯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall.png",
+      "label": "室外街道 · 墙",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall.png",
+      "label": "室外街道 · 墙",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall.png",
+      "label": "室外街道 · 墙",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_window.png",
+      "label": "室外街道 · 墙 · 窗",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_window.png",
+      "label": "室外街道 · 墙 · 窗",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_window.png",
+      "label": "室外街道 · 墙 · 窗",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_poster.png",
+      "label": "室外街道 · 墙 · 海报",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_poster.png",
+      "label": "室外街道 · 墙 · 海报",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_poster.png",
+      "label": "室外街道 · 墙 · 海报",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_graffiti.png",
+      "label": "室外街道 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_graffiti.png",
+      "label": "室外街道 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_graffiti.png",
+      "label": "室外街道 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_crack.png",
+      "label": "室外街道 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_crack.png",
+      "label": "室外街道 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_crack.png",
+      "label": "室外街道 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_sign.png",
+      "label": "室外街道 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_sign.png",
+      "label": "室外街道 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_sign.png",
+      "label": "室外街道 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_neon.png",
+      "label": "室外街道 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_neon.png",
+      "label": "室外街道 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_neon.png",
+      "label": "室外街道 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_whiteboard.png",
+      "label": "室外街道 · 墙 · 白板",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_whiteboard.png",
+      "label": "室外街道 · 墙 · 白板",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_whiteboard.png",
+      "label": "室外街道 · 墙 · 白板",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_painting.png",
+      "label": "室外街道 · 墙 · 挂画",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_painting.png",
+      "label": "室外街道 · 墙 · 挂画",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_painting.png",
+      "label": "室外街道 · 墙 · 挂画",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_banner.png",
+      "label": "室外街道 · 墙 · 横幅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_banner.png",
+      "label": "室外街道 · 墙 · 横幅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_banner.png",
+      "label": "室外街道 · 墙 · 横幅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/wall_elevator.png",
+      "label": "室外街道 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/wall_elevator.png",
+      "label": "室外街道 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/wall_elevator.png",
+      "label": "室外街道 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/column.png",
+      "label": "室外街道 · 柱子",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/column.png",
+      "label": "室外街道 · 柱子",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/column.png",
+      "label": "室外街道 · 柱子",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/crate.png",
+      "label": "室外街道 · 木箱",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/crate.png",
+      "label": "室外街道 · 木箱",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/crate.png",
+      "label": "室外街道 · 木箱",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/desk.png",
+      "label": "室外街道 · 办公桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/desk.png",
+      "label": "室外街道 · 办公桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/desk.png",
+      "label": "室外街道 · 办公桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/car.png",
+      "label": "室外街道 · 报废车",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/car.png",
+      "label": "室外街道 · 报废车",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/car.png",
+      "label": "室外街道 · 报废车",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/rail.png",
+      "label": "室外街道 · 护栏",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/rail.png",
+      "label": "室外街道 · 护栏",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/rail.png",
+      "label": "室外街道 · 护栏",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/pump.png",
+      "label": "室外街道 · 加油机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/pump.png",
+      "label": "室外街道 · 加油机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/pump.png",
+      "label": "室外街道 · 加油机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/rubble.png",
+      "label": "室外街道 · 瓦砾",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/rubble.png",
+      "label": "室外街道 · 瓦砾",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/rubble.png",
+      "label": "室外街道 · 瓦砾",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/hydrant.png",
+      "label": "室外街道 · 消防栓",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/hydrant.png",
+      "label": "室外街道 · 消防栓",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/hydrant.png",
+      "label": "室外街道 · 消防栓",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/sand.png",
+      "label": "室外街道 · 沙地",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/sand.png",
+      "label": "室外街道 · 沙地",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/sand.png",
+      "label": "室外街道 · 沙地",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/meeting_table.png",
+      "label": "室外街道 · 会议长桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/meeting_table.png",
+      "label": "室外街道 · 会议长桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/meeting_table.png",
+      "label": "室外街道 · 会议长桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/cabinet.png",
+      "label": "室外街道 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/cabinet.png",
+      "label": "室外街道 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/cabinet.png",
+      "label": "室外街道 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/cooler.png",
+      "label": "室外街道 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/cooler.png",
+      "label": "室外街道 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/cooler.png",
+      "label": "室外街道 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/vending_machine.png",
+      "label": "室外街道 · 室外售货机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/vending_machine.png",
+      "label": "室外街道 · 室外售货机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/vending_machine.png",
+      "label": "室外街道 · 室外售货机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/trash_can.png",
+      "label": "室外街道 · 垃圾桶",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/trash_can.png",
+      "label": "室外街道 · 垃圾桶",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/trash_can.png",
+      "label": "室外街道 · 垃圾桶",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/phone_booth.png",
+      "label": "室外街道 · 电话亭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/phone_booth.png",
+      "label": "室外街道 · 电话亭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/phone_booth.png",
+      "label": "室外街道 · 电话亭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/mailbox.png",
+      "label": "室外街道 · 邮筒",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/mailbox.png",
+      "label": "室外街道 · 邮筒",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/mailbox.png",
+      "label": "室外街道 · 邮筒",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/tire_stack.png",
+      "label": "室外街道 · 轮胎堆",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/tire_stack.png",
+      "label": "室外街道 · 轮胎堆",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/tire_stack.png",
+      "label": "室外街道 · 轮胎堆",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/dead_tree.png",
+      "label": "室外街道 · 枯树",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/dead_tree.png",
+      "label": "室外街道 · 枯树",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/dead_tree.png",
+      "label": "室外街道 · 枯树",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/sandbags.png",
+      "label": "室外街道 · 沙袋",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/sandbags.png",
+      "label": "室外街道 · 沙袋",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/sandbags.png",
+      "label": "室外街道 · 沙袋",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/campfire.png",
+      "label": "室外街道 · 篝火",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/campfire.png",
+      "label": "室外街道 · 篝火",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/campfire.png",
+      "label": "室外街道 · 篝火",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/road_sign.png",
+      "label": "室外街道 · 路牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/road_sign.png",
+      "label": "室外街道 · 路牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/road_sign.png",
+      "label": "室外街道 · 路牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/stall.png",
+      "label": "室外街道 · 路边摊",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/stall.png",
+      "label": "室外街道 · 路边摊",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/stall.png",
+      "label": "室外街道 · 路边摊",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/potted_plant.png",
+      "label": "室外街道 · 盆栽",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/potted_plant.png",
+      "label": "室外街道 · 盆栽",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/potted_plant.png",
+      "label": "室外街道 · 盆栽",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/decal_puddle.png",
+      "label": "室外街道 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/decal_puddle.png",
+      "label": "室外街道 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/decal_puddle.png",
+      "label": "室外街道 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/decal_blood.png",
+      "label": "室外街道 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/decal_blood.png",
+      "label": "室外街道 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/decal_blood.png",
+      "label": "室外街道 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/decal_shells.png",
+      "label": "室外街道 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/decal_shells.png",
+      "label": "室外街道 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/decal_shells.png",
+      "label": "室外街道 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/decal_traffic_cone.png",
+      "label": "室外街道 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/decal_traffic_cone.png",
+      "label": "室外街道 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/decal_traffic_cone.png",
+      "label": "室外街道 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/decal_grate.png",
+      "label": "室外街道 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/decal_grate.png",
+      "label": "室外街道 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/decal_grate.png",
+      "label": "室外街道 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/decal_scorch.png",
+      "label": "室外街道 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/decal_scorch.png",
+      "label": "室外街道 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/decal_scorch.png",
+      "label": "室外街道 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/road.png",
+      "label": "室外街道 · 公路路面",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/road.png",
+      "label": "室外街道 · 公路路面",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/road.png",
+      "label": "室外街道 · 公路路面",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/rails.png",
+      "label": "室外街道 · 铁轨",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/rails.png",
+      "label": "室外街道 · 铁轨",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/rails.png",
+      "label": "室外街道 · 铁轨",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/glass.png",
+      "label": "室外街道 · 玻璃隔断",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/glass.png",
+      "label": "室外街道 · 玻璃隔断",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/glass.png",
+      "label": "室外街道 · 玻璃隔断",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/street_lamp.png",
+      "label": "室外街道 · 路灯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/street_lamp.png",
+      "label": "室外街道 · 路灯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/street_lamp.png",
+      "label": "室外街道 · 路灯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/street_lamp_broken.png",
+      "label": "室外街道 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@2x/street_lamp_broken.png",
+      "label": "室外街道 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/street@4x/street_lamp_broken.png",
+      "label": "室外街道 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/gate_locked.png",
+      "label": "室外街道 · 闸门 · 落下",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@4x/gate_locked.png",
+      "label": "室外街道 · 闸门 · 落下",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/street/gate_open.png",
+      "label": "室外街道 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/street@4x/gate_open.png",
+      "label": "室外街道 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/floor.png",
+      "label": "城市外公路 · 地面 1",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/floor.png",
+      "label": "城市外公路 · 地面 1",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/floor.png",
+      "label": "城市外公路 · 地面 1",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/floor_2.png",
+      "label": "城市外公路 · 地面 2",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/floor_2.png",
+      "label": "城市外公路 · 地面 2",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/floor_2.png",
+      "label": "城市外公路 · 地面 2",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/floor_3.png",
+      "label": "城市外公路 · 地面 3",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/floor_3.png",
+      "label": "城市外公路 · 地面 3",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/floor_3.png",
+      "label": "城市外公路 · 地面 3",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/carpet.png",
+      "label": "城市外公路 · 红毯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/carpet.png",
+      "label": "城市外公路 · 红毯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/carpet.png",
+      "label": "城市外公路 · 红毯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall.png",
+      "label": "城市外公路 · 墙",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall.png",
+      "label": "城市外公路 · 墙",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall.png",
+      "label": "城市外公路 · 墙",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_window.png",
+      "label": "城市外公路 · 墙 · 窗",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_window.png",
+      "label": "城市外公路 · 墙 · 窗",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_window.png",
+      "label": "城市外公路 · 墙 · 窗",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_poster.png",
+      "label": "城市外公路 · 墙 · 海报",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_poster.png",
+      "label": "城市外公路 · 墙 · 海报",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_poster.png",
+      "label": "城市外公路 · 墙 · 海报",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_graffiti.png",
+      "label": "城市外公路 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_graffiti.png",
+      "label": "城市外公路 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_graffiti.png",
+      "label": "城市外公路 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_crack.png",
+      "label": "城市外公路 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_crack.png",
+      "label": "城市外公路 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_crack.png",
+      "label": "城市外公路 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_sign.png",
+      "label": "城市外公路 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_sign.png",
+      "label": "城市外公路 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_sign.png",
+      "label": "城市外公路 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_neon.png",
+      "label": "城市外公路 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_neon.png",
+      "label": "城市外公路 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_neon.png",
+      "label": "城市外公路 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_whiteboard.png",
+      "label": "城市外公路 · 墙 · 白板",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_whiteboard.png",
+      "label": "城市外公路 · 墙 · 白板",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_whiteboard.png",
+      "label": "城市外公路 · 墙 · 白板",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_painting.png",
+      "label": "城市外公路 · 墙 · 挂画",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_painting.png",
+      "label": "城市外公路 · 墙 · 挂画",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_painting.png",
+      "label": "城市外公路 · 墙 · 挂画",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_banner.png",
+      "label": "城市外公路 · 墙 · 横幅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_banner.png",
+      "label": "城市外公路 · 墙 · 横幅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_banner.png",
+      "label": "城市外公路 · 墙 · 横幅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/wall_elevator.png",
+      "label": "城市外公路 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/wall_elevator.png",
+      "label": "城市外公路 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/wall_elevator.png",
+      "label": "城市外公路 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/column.png",
+      "label": "城市外公路 · 柱子",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/column.png",
+      "label": "城市外公路 · 柱子",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/column.png",
+      "label": "城市外公路 · 柱子",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/crate.png",
+      "label": "城市外公路 · 木箱",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/crate.png",
+      "label": "城市外公路 · 木箱",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/crate.png",
+      "label": "城市外公路 · 木箱",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/desk.png",
+      "label": "城市外公路 · 办公桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/desk.png",
+      "label": "城市外公路 · 办公桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/desk.png",
+      "label": "城市外公路 · 办公桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/car.png",
+      "label": "城市外公路 · 报废车",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/car.png",
+      "label": "城市外公路 · 报废车",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/car.png",
+      "label": "城市外公路 · 报废车",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/rail.png",
+      "label": "城市外公路 · 护栏",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/rail.png",
+      "label": "城市外公路 · 护栏",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/rail.png",
+      "label": "城市外公路 · 护栏",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/pump.png",
+      "label": "城市外公路 · 加油机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/pump.png",
+      "label": "城市外公路 · 加油机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/pump.png",
+      "label": "城市外公路 · 加油机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/rubble.png",
+      "label": "城市外公路 · 瓦砾",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/rubble.png",
+      "label": "城市外公路 · 瓦砾",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/rubble.png",
+      "label": "城市外公路 · 瓦砾",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/hydrant.png",
+      "label": "城市外公路 · 消防栓",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/hydrant.png",
+      "label": "城市外公路 · 消防栓",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/hydrant.png",
+      "label": "城市外公路 · 消防栓",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/sand.png",
+      "label": "城市外公路 · 沙地",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/sand.png",
+      "label": "城市外公路 · 沙地",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/sand.png",
+      "label": "城市外公路 · 沙地",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/meeting_table.png",
+      "label": "城市外公路 · 会议长桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/meeting_table.png",
+      "label": "城市外公路 · 会议长桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/meeting_table.png",
+      "label": "城市外公路 · 会议长桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/cabinet.png",
+      "label": "城市外公路 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/cabinet.png",
+      "label": "城市外公路 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/cabinet.png",
+      "label": "城市外公路 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/cooler.png",
+      "label": "城市外公路 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/cooler.png",
+      "label": "城市外公路 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/cooler.png",
+      "label": "城市外公路 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/vending_machine.png",
+      "label": "城市外公路 · 室外售货机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/vending_machine.png",
+      "label": "城市外公路 · 室外售货机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/vending_machine.png",
+      "label": "城市外公路 · 室外售货机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/trash_can.png",
+      "label": "城市外公路 · 垃圾桶",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/trash_can.png",
+      "label": "城市外公路 · 垃圾桶",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/trash_can.png",
+      "label": "城市外公路 · 垃圾桶",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/phone_booth.png",
+      "label": "城市外公路 · 电话亭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/phone_booth.png",
+      "label": "城市外公路 · 电话亭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/phone_booth.png",
+      "label": "城市外公路 · 电话亭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/mailbox.png",
+      "label": "城市外公路 · 邮筒",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/mailbox.png",
+      "label": "城市外公路 · 邮筒",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/mailbox.png",
+      "label": "城市外公路 · 邮筒",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/tire_stack.png",
+      "label": "城市外公路 · 轮胎堆",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/tire_stack.png",
+      "label": "城市外公路 · 轮胎堆",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/tire_stack.png",
+      "label": "城市外公路 · 轮胎堆",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/dead_tree.png",
+      "label": "城市外公路 · 枯树",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/dead_tree.png",
+      "label": "城市外公路 · 枯树",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/dead_tree.png",
+      "label": "城市外公路 · 枯树",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/sandbags.png",
+      "label": "城市外公路 · 沙袋",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/sandbags.png",
+      "label": "城市外公路 · 沙袋",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/sandbags.png",
+      "label": "城市外公路 · 沙袋",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/campfire.png",
+      "label": "城市外公路 · 篝火",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/campfire.png",
+      "label": "城市外公路 · 篝火",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/campfire.png",
+      "label": "城市外公路 · 篝火",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/road_sign.png",
+      "label": "城市外公路 · 路牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/road_sign.png",
+      "label": "城市外公路 · 路牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/road_sign.png",
+      "label": "城市外公路 · 路牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/stall.png",
+      "label": "城市外公路 · 路边摊",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/stall.png",
+      "label": "城市外公路 · 路边摊",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/stall.png",
+      "label": "城市外公路 · 路边摊",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/potted_plant.png",
+      "label": "城市外公路 · 盆栽",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/potted_plant.png",
+      "label": "城市外公路 · 盆栽",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/potted_plant.png",
+      "label": "城市外公路 · 盆栽",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/decal_puddle.png",
+      "label": "城市外公路 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/decal_puddle.png",
+      "label": "城市外公路 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/decal_puddle.png",
+      "label": "城市外公路 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/decal_blood.png",
+      "label": "城市外公路 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/decal_blood.png",
+      "label": "城市外公路 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/decal_blood.png",
+      "label": "城市外公路 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/decal_shells.png",
+      "label": "城市外公路 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/decal_shells.png",
+      "label": "城市外公路 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/decal_shells.png",
+      "label": "城市外公路 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/decal_traffic_cone.png",
+      "label": "城市外公路 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/decal_traffic_cone.png",
+      "label": "城市外公路 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/decal_traffic_cone.png",
+      "label": "城市外公路 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/decal_grate.png",
+      "label": "城市外公路 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/decal_grate.png",
+      "label": "城市外公路 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/decal_grate.png",
+      "label": "城市外公路 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/decal_scorch.png",
+      "label": "城市外公路 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/decal_scorch.png",
+      "label": "城市外公路 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/decal_scorch.png",
+      "label": "城市外公路 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/road.png",
+      "label": "城市外公路 · 公路路面",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/road.png",
+      "label": "城市外公路 · 公路路面",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/road.png",
+      "label": "城市外公路 · 公路路面",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/rails.png",
+      "label": "城市外公路 · 铁轨",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/rails.png",
+      "label": "城市外公路 · 铁轨",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/rails.png",
+      "label": "城市外公路 · 铁轨",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/glass.png",
+      "label": "城市外公路 · 玻璃隔断",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/glass.png",
+      "label": "城市外公路 · 玻璃隔断",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/glass.png",
+      "label": "城市外公路 · 玻璃隔断",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/street_lamp.png",
+      "label": "城市外公路 · 路灯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/street_lamp.png",
+      "label": "城市外公路 · 路灯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/street_lamp.png",
+      "label": "城市外公路 · 路灯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/street_lamp_broken.png",
+      "label": "城市外公路 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@2x/street_lamp_broken.png",
+      "label": "城市外公路 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/highway@4x/street_lamp_broken.png",
+      "label": "城市外公路 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/gate_locked.png",
+      "label": "城市外公路 · 闸门 · 落下",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@4x/gate_locked.png",
+      "label": "城市外公路 · 闸门 · 落下",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/highway/gate_open.png",
+      "label": "城市外公路 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/highway@4x/gate_open.png",
+      "label": "城市外公路 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/floor.png",
+      "label": "议事厅 · 地面 1",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/floor.png",
+      "label": "议事厅 · 地面 1",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/floor.png",
+      "label": "议事厅 · 地面 1",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/floor_2.png",
+      "label": "议事厅 · 地面 2",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/floor_2.png",
+      "label": "议事厅 · 地面 2",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/floor_2.png",
+      "label": "议事厅 · 地面 2",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/floor_3.png",
+      "label": "议事厅 · 地面 3",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/floor_3.png",
+      "label": "议事厅 · 地面 3",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/floor_3.png",
+      "label": "议事厅 · 地面 3",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/carpet.png",
+      "label": "议事厅 · 红毯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/carpet.png",
+      "label": "议事厅 · 红毯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/carpet.png",
+      "label": "议事厅 · 红毯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall.png",
+      "label": "议事厅 · 墙",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall.png",
+      "label": "议事厅 · 墙",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall.png",
+      "label": "议事厅 · 墙",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_window.png",
+      "label": "议事厅 · 墙 · 窗",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_window.png",
+      "label": "议事厅 · 墙 · 窗",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_window.png",
+      "label": "议事厅 · 墙 · 窗",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_poster.png",
+      "label": "议事厅 · 墙 · 海报",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_poster.png",
+      "label": "议事厅 · 墙 · 海报",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_poster.png",
+      "label": "议事厅 · 墙 · 海报",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_graffiti.png",
+      "label": "议事厅 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_graffiti.png",
+      "label": "议事厅 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_graffiti.png",
+      "label": "议事厅 · 墙 · 涂鸦",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_crack.png",
+      "label": "议事厅 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_crack.png",
+      "label": "议事厅 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_crack.png",
+      "label": "议事厅 · 墙 · 裂缝",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_sign.png",
+      "label": "议事厅 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_sign.png",
+      "label": "议事厅 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_sign.png",
+      "label": "议事厅 · 墙 · 指示牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_neon.png",
+      "label": "议事厅 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_neon.png",
+      "label": "议事厅 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_neon.png",
+      "label": "议事厅 · 墙 · 霓虹招牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_whiteboard.png",
+      "label": "议事厅 · 墙 · 白板",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_whiteboard.png",
+      "label": "议事厅 · 墙 · 白板",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_whiteboard.png",
+      "label": "议事厅 · 墙 · 白板",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_painting.png",
+      "label": "议事厅 · 墙 · 挂画",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_painting.png",
+      "label": "议事厅 · 墙 · 挂画",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_painting.png",
+      "label": "议事厅 · 墙 · 挂画",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_banner.png",
+      "label": "议事厅 · 墙 · 横幅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_banner.png",
+      "label": "议事厅 · 墙 · 横幅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_banner.png",
+      "label": "议事厅 · 墙 · 横幅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/wall_elevator.png",
+      "label": "议事厅 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/wall_elevator.png",
+      "label": "议事厅 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/wall_elevator.png",
+      "label": "议事厅 · 墙 · 电梯门",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/column.png",
+      "label": "议事厅 · 柱子",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/column.png",
+      "label": "议事厅 · 柱子",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/column.png",
+      "label": "议事厅 · 柱子",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/crate.png",
+      "label": "议事厅 · 木箱",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/crate.png",
+      "label": "议事厅 · 木箱",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/crate.png",
+      "label": "议事厅 · 木箱",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/desk.png",
+      "label": "议事厅 · 办公桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/desk.png",
+      "label": "议事厅 · 办公桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/desk.png",
+      "label": "议事厅 · 办公桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/car.png",
+      "label": "议事厅 · 报废车",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/car.png",
+      "label": "议事厅 · 报废车",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/car.png",
+      "label": "议事厅 · 报废车",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/rail.png",
+      "label": "议事厅 · 护栏",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/rail.png",
+      "label": "议事厅 · 护栏",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/rail.png",
+      "label": "议事厅 · 护栏",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/pump.png",
+      "label": "议事厅 · 加油机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/pump.png",
+      "label": "议事厅 · 加油机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/pump.png",
+      "label": "议事厅 · 加油机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/rubble.png",
+      "label": "议事厅 · 瓦砾",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/rubble.png",
+      "label": "议事厅 · 瓦砾",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/rubble.png",
+      "label": "议事厅 · 瓦砾",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/hydrant.png",
+      "label": "议事厅 · 消防栓",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/hydrant.png",
+      "label": "议事厅 · 消防栓",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/hydrant.png",
+      "label": "议事厅 · 消防栓",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/sand.png",
+      "label": "议事厅 · 沙地",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/sand.png",
+      "label": "议事厅 · 沙地",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/sand.png",
+      "label": "议事厅 · 沙地",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/meeting_table.png",
+      "label": "议事厅 · 会议长桌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/meeting_table.png",
+      "label": "议事厅 · 会议长桌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/meeting_table.png",
+      "label": "议事厅 · 会议长桌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/cabinet.png",
+      "label": "议事厅 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/cabinet.png",
+      "label": "议事厅 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/cabinet.png",
+      "label": "议事厅 · 档案柜 / 机柜",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/cooler.png",
+      "label": "议事厅 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/cooler.png",
+      "label": "议事厅 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/cooler.png",
+      "label": "议事厅 · 饮水机 / 空调",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/vending_machine.png",
+      "label": "议事厅 · 室外售货机",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/vending_machine.png",
+      "label": "议事厅 · 室外售货机",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/vending_machine.png",
+      "label": "议事厅 · 室外售货机",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/trash_can.png",
+      "label": "议事厅 · 垃圾桶",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/trash_can.png",
+      "label": "议事厅 · 垃圾桶",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/trash_can.png",
+      "label": "议事厅 · 垃圾桶",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/phone_booth.png",
+      "label": "议事厅 · 电话亭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/phone_booth.png",
+      "label": "议事厅 · 电话亭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/phone_booth.png",
+      "label": "议事厅 · 电话亭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/mailbox.png",
+      "label": "议事厅 · 邮筒",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/mailbox.png",
+      "label": "议事厅 · 邮筒",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/mailbox.png",
+      "label": "议事厅 · 邮筒",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/tire_stack.png",
+      "label": "议事厅 · 轮胎堆",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/tire_stack.png",
+      "label": "议事厅 · 轮胎堆",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/tire_stack.png",
+      "label": "议事厅 · 轮胎堆",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/dead_tree.png",
+      "label": "议事厅 · 枯树",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/dead_tree.png",
+      "label": "议事厅 · 枯树",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/dead_tree.png",
+      "label": "议事厅 · 枯树",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/sandbags.png",
+      "label": "议事厅 · 沙袋",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/sandbags.png",
+      "label": "议事厅 · 沙袋",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/sandbags.png",
+      "label": "议事厅 · 沙袋",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/campfire.png",
+      "label": "议事厅 · 篝火",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/campfire.png",
+      "label": "议事厅 · 篝火",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/campfire.png",
+      "label": "议事厅 · 篝火",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/road_sign.png",
+      "label": "议事厅 · 路牌",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/road_sign.png",
+      "label": "议事厅 · 路牌",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/road_sign.png",
+      "label": "议事厅 · 路牌",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/stall.png",
+      "label": "议事厅 · 路边摊",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/stall.png",
+      "label": "议事厅 · 路边摊",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/stall.png",
+      "label": "议事厅 · 路边摊",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/potted_plant.png",
+      "label": "议事厅 · 盆栽",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/potted_plant.png",
+      "label": "议事厅 · 盆栽",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/potted_plant.png",
+      "label": "议事厅 · 盆栽",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/decal_puddle.png",
+      "label": "议事厅 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/decal_puddle.png",
+      "label": "议事厅 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/decal_puddle.png",
+      "label": "议事厅 · 地面痕迹 · 水洼",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/decal_blood.png",
+      "label": "议事厅 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/decal_blood.png",
+      "label": "议事厅 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/decal_blood.png",
+      "label": "议事厅 · 地面痕迹 · 血迹",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/decal_shells.png",
+      "label": "议事厅 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/decal_shells.png",
+      "label": "议事厅 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/decal_shells.png",
+      "label": "议事厅 · 地面痕迹 · 弹壳",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/decal_traffic_cone.png",
+      "label": "议事厅 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/decal_traffic_cone.png",
+      "label": "议事厅 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/decal_traffic_cone.png",
+      "label": "议事厅 · 地面痕迹 · 交通锥",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/decal_grate.png",
+      "label": "议事厅 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/decal_grate.png",
+      "label": "议事厅 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/decal_grate.png",
+      "label": "议事厅 · 地面痕迹 · 格栅",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/decal_scorch.png",
+      "label": "议事厅 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/decal_scorch.png",
+      "label": "议事厅 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/decal_scorch.png",
+      "label": "议事厅 · 地面痕迹 · 焦痕",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/road.png",
+      "label": "议事厅 · 公路路面",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/road.png",
+      "label": "议事厅 · 公路路面",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/road.png",
+      "label": "议事厅 · 公路路面",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/rails.png",
+      "label": "议事厅 · 铁轨",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/rails.png",
+      "label": "议事厅 · 铁轨",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/rails.png",
+      "label": "议事厅 · 铁轨",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/glass.png",
+      "label": "议事厅 · 玻璃隔断",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/glass.png",
+      "label": "议事厅 · 玻璃隔断",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/glass.png",
+      "label": "议事厅 · 玻璃隔断",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/street_lamp.png",
+      "label": "议事厅 · 路灯",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/street_lamp.png",
+      "label": "议事厅 · 路灯",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/street_lamp.png",
+      "label": "议事厅 · 路灯",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/street_lamp_broken.png",
+      "label": "议事厅 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@2x/street_lamp_broken.png",
+      "label": "议事厅 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "path": "tiles/council@4x/street_lamp_broken.png",
+      "label": "议事厅 · 路灯 · 被打灭",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/gate_locked.png",
+      "label": "议事厅 · 闸门 · 落下",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@4x/gate_locked.png",
+      "label": "议事厅 · 闸门 · 落下",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "tiles/council/gate_open.png",
+      "label": "议事厅 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 16,
+      "h": 16
+    },
+    {
+      "path": "tiles/council@4x/gate_open.png",
+      "label": "议事厅 · 闸门 · 敞开",
+      "category": "tile",
+      "w": 64,
+      "h": 64
+    },
+    {
+      "path": "props/bench.png",
+      "label": "道具 · 合成台",
+      "category": "prop",
+      "w": 44,
+      "h": 40
+    },
+    {
+      "path": "props@2x/bench.png",
+      "label": "道具 · 合成台",
+      "category": "prop",
+      "w": 88,
+      "h": 80
+    },
+    {
+      "path": "props@4x/bench.png",
+      "label": "道具 · 合成台",
+      "category": "prop",
+      "w": 176,
+      "h": 160
+    },
+    {
+      "path": "props/board.png",
+      "label": "道具 · 通缉板",
+      "category": "prop",
+      "w": 40,
+      "h": 44
+    },
+    {
+      "path": "props@2x/board.png",
+      "label": "道具 · 通缉板",
+      "category": "prop",
+      "w": 80,
+      "h": 88
+    },
+    {
+      "path": "props@4x/board.png",
+      "label": "道具 · 通缉板",
+      "category": "prop",
+      "w": 160,
+      "h": 176
+    },
+    {
+      "path": "props/elevator.png",
+      "label": "道具 · 电梯",
+      "category": "prop",
+      "w": 40,
+      "h": 44
+    },
+    {
+      "path": "props@2x/elevator.png",
+      "label": "道具 · 电梯",
+      "category": "prop",
+      "w": 80,
+      "h": 88
+    },
+    {
+      "path": "props@4x/elevator.png",
+      "label": "道具 · 电梯",
+      "category": "prop",
+      "w": 160,
+      "h": 176
+    },
+    {
+      "path": "props/stairs.png",
+      "label": "道具 · 楼梯",
+      "category": "prop",
+      "w": 44,
+      "h": 40
+    },
+    {
+      "path": "props@2x/stairs.png",
+      "label": "道具 · 楼梯",
+      "category": "prop",
+      "w": 88,
+      "h": 80
+    },
+    {
+      "path": "props@4x/stairs.png",
+      "label": "道具 · 楼梯",
+      "category": "prop",
+      "w": 176,
+      "h": 160
+    },
+    {
+      "path": "props/manhole.png",
+      "label": "道具 · 井盖",
+      "category": "prop",
+      "w": 32,
+      "h": 28
+    },
+    {
+      "path": "props@2x/manhole.png",
+      "label": "道具 · 井盖",
+      "category": "prop",
+      "w": 64,
+      "h": 56
+    },
+    {
+      "path": "props@4x/manhole.png",
+      "label": "道具 · 井盖",
+      "category": "prop",
+      "w": 128,
+      "h": 112
+    },
+    {
+      "path": "props/overpass.png",
+      "label": "道具 · 天桥",
+      "category": "prop",
+      "w": 40,
+      "h": 40
+    },
+    {
+      "path": "props@2x/overpass.png",
+      "label": "道具 · 天桥",
+      "category": "prop",
+      "w": 80,
+      "h": 80
+    },
+    {
+      "path": "props@4x/overpass.png",
+      "label": "道具 · 天桥",
+      "category": "prop",
+      "w": 160,
+      "h": 160
+    },
+    {
+      "path": "props/portal.png",
+      "label": "道具 · 传送门",
+      "category": "prop",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "path": "props@2x/portal.png",
+      "label": "道具 · 传送门",
+      "category": "prop",
+      "w": 88,
+      "h": 88
+    },
+    {
+      "path": "props@4x/portal.png",
+      "label": "道具 · 传送门",
+      "category": "prop",
+      "w": 176,
+      "h": 176
+    },
+    {
+      "path": "props/note.png",
+      "label": "道具 · 档案纸条",
+      "category": "prop",
+      "w": 24,
+      "h": 26
+    },
+    {
+      "path": "props@2x/note.png",
+      "label": "道具 · 档案纸条",
+      "category": "prop",
+      "w": 48,
+      "h": 52
+    },
+    {
+      "path": "props@4x/note.png",
+      "label": "道具 · 档案纸条",
+      "category": "prop",
+      "w": 96,
+      "h": 104
+    },
+    {
+      "path": "props/story.png",
+      "label": "道具 · 回忆照片",
+      "category": "prop",
+      "w": 24,
+      "h": 26
+    },
+    {
+      "path": "props@2x/story.png",
+      "label": "道具 · 回忆照片",
+      "category": "prop",
+      "w": 48,
+      "h": 52
+    },
+    {
+      "path": "props@4x/story.png",
+      "label": "道具 · 回忆照片",
+      "category": "prop",
+      "w": 96,
+      "h": 104
+    },
+    {
+      "path": "props/chest.png",
+      "label": "道具 · 宝箱（同上，便于分类）",
+      "category": "prop",
+      "w": 24,
+      "h": 26
+    },
+    {
+      "path": "props@2x/chest.png",
+      "label": "道具 · 宝箱（同上，便于分类）",
+      "category": "prop",
+      "w": 48,
+      "h": 52
+    },
+    {
+      "path": "props@4x/chest.png",
+      "label": "道具 · 宝箱（同上，便于分类）",
+      "category": "prop",
+      "w": 96,
+      "h": 104
+    },
+    {
+      "path": "props/stairs_up.png",
+      "label": "道具 · 楼梯（向上）",
+      "category": "prop",
+      "w": 44,
+      "h": 40
+    },
+    {
+      "path": "props@4x/stairs_up.png",
+      "label": "道具 · 楼梯（向上）",
+      "category": "prop",
+      "w": 176,
+      "h": 160
+    },
+    {
+      "path": "props/camera.png",
+      "label": "道具 · 监控摄像头",
+      "category": "prop",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "path": "props/camera_alert.png",
+      "label": "道具 · 监控摄像头（报警）",
+      "category": "prop",
+      "w": 24,
+      "h": 24
+    },
+    {
+      "path": "vehicles/car.png",
+      "label": "载具 · 汽车",
+      "category": "vehicle",
+      "w": 28,
+      "h": 16
+    },
+    {
+      "path": "vehicles@2x/car.png",
+      "label": "载具 · 汽车",
+      "category": "vehicle",
+      "w": 56,
+      "h": 32
+    },
+    {
+      "path": "vehicles/truck.png",
+      "label": "载具 · 卡车",
+      "category": "vehicle",
+      "w": 42,
+      "h": 18
+    },
+    {
+      "path": "vehicles@2x/truck.png",
+      "label": "载具 · 卡车",
+      "category": "vehicle",
+      "w": 84,
+      "h": 36
+    },
+    {
+      "path": "vehicles/train_3cars.png",
+      "label": "载具 · 火车（3 节）",
+      "category": "vehicle",
+      "w": 104,
+      "h": 20
+    },
+    {
+      "path": "vehicles@2x/train_3cars.png",
+      "label": "载具 · 火车（3 节）",
+      "category": "vehicle",
+      "w": 208,
+      "h": 40
+    },
+    {
+      "path": "vehicles/train_8cars.png",
+      "label": "载具 · 火车（8 节）",
+      "category": "vehicle",
+      "w": 234,
+      "h": 20
+    },
+    {
+      "path": "vehicles@2x/train_8cars.png",
+      "label": "载具 · 火车（8 节）",
+      "category": "vehicle",
+      "w": 468,
+      "h": 40
+    },
+    {
+      "path": "weapons/pistol.png",
+      "label": "武器 · 制式手枪（普通）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/pistol.png",
+      "label": "武器 · 制式手枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/smg.png",
+      "label": "武器 · 巷战冲锋枪（普通）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/smg.png",
+      "label": "武器 · 巷战冲锋枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/shotgun.png",
+      "label": "武器 · 泵动霰弹枪（优良）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/shotgun.png",
+      "label": "武器 · 泵动霰弹枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/rifle.png",
+      "label": "武器 · 老兵步枪（优良）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/rifle.png",
+      "label": "武器 · 老兵步枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/magnum.png",
+      "label": "武器 · 旧日转轮（优良）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/magnum.png",
+      "label": "武器 · 旧日转轮",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/laser.png",
+      "label": "武器 · 激光手枪（优良）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/laser.png",
+      "label": "武器 · 激光手枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/flamer.png",
+      "label": "武器 · 火焰喷射器（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/flamer.png",
+      "label": "武器 · 火焰喷射器",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/grenade.png",
+      "label": "武器 · 榴弹发射器（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/grenade.png",
+      "label": "武器 · 榴弹发射器",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/crossbow.png",
+      "label": "武器 · 猎手战弩（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/crossbow.png",
+      "label": "武器 · 猎手战弩",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/signal.png",
+      "label": "武器 · 信号枪（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/signal.png",
+      "label": "武器 · 信号枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/plasma.png",
+      "label": "武器 · 议会电浆炮（传说）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/plasma.png",
+      "label": "武器 · 议会电浆炮",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/minigun.png",
+      "label": "武器 · 旧日转管机枪（传说）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/minigun.png",
+      "label": "武器 · 旧日转管机枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/scepter.png",
+      "label": "武器 · 执政官权杖（传说）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/scepter.png",
+      "label": "武器 · 执政官权杖",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/dual_pistol.png",
+      "label": "武器 · 双持手枪（优良）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/dual_pistol.png",
+      "label": "武器 · 双持手枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/twin_smg.png",
+      "label": "武器 · 双重冲锋枪（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/twin_smg.png",
+      "label": "武器 · 双重冲锋枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/double_barrel.png",
+      "label": "武器 · 双管霰弹（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/double_barrel.png",
+      "label": "武器 · 双管霰弹",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/plasma_rifle.png",
+      "label": "武器 · 电浆步枪（传说）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/plasma_rifle.png",
+      "label": "武器 · 电浆步枪",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/firebomb.png",
+      "label": "武器 · 燃烧榴弹（传说）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/firebomb.png",
+      "label": "武器 · 燃烧榴弹",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/python.png",
+      "label": "武器 · 巨蟒转轮（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/python.png",
+      "label": "武器 · 巨蟒转轮",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/flare_bolt.png",
+      "label": "武器 · 信号弩（稀有）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/flare_bolt.png",
+      "label": "武器 · 信号弩",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "weapons/sovereign.png",
+      "label": "武器 · 执政官权杖·改（传说）",
+      "category": "weapon",
+      "w": 24,
+      "h": 16
+    },
+    {
+      "path": "weapons@2x/sovereign.png",
+      "label": "武器 · 执政官权杖·改",
+      "category": "weapon",
+      "w": 48,
+      "h": 32
+    },
+    {
+      "path": "atlas/sprites_atlas.png",
+      "label": "精灵图集",
+      "category": "atlas",
+      "w": 510,
+      "h": 102
+    },
+    {
+      "path": "atlas/sprites_atlas@2x.png",
+      "label": "精灵图集",
+      "category": "atlas",
+      "w": 462,
+      "h": 396
+    },
+    {
+      "path": "atlas/tiles_indoor.png",
+      "label": "大建筑室内 瓦片图集",
+      "category": "atlas",
+      "w": 252,
+      "h": 72
+    },
+    {
+      "path": "atlas/tiles_street.png",
+      "label": "室外街道 瓦片图集",
+      "category": "atlas",
+      "w": 252,
+      "h": 72
+    },
+    {
+      "path": "atlas/tiles_highway.png",
+      "label": "城市外公路 瓦片图集",
+      "category": "atlas",
+      "w": 252,
+      "h": 72
+    },
+    {
+      "path": "atlas/tiles_council.png",
+      "label": "议事厅 瓦片图集",
+      "category": "atlas",
+      "w": 252,
+      "h": 72
+    },
+    {
+      "path": "preview/sprites_contact_sheet.png",
+      "label": "精灵总览图",
+      "category": "preview",
+      "w": 720,
+      "h": 678
+    }
+  ]
+}

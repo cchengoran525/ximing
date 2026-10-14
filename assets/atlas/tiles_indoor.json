@@ -1,0 +1,416 @@
+{
+  "image": "tiles_indoor.png",
+  "tileSize": 16,
+  "scale": 1,
+  "source": "../tiles/indoor/",
+  "tiles": [
+    {
+      "name": "tiles/indoor/floor.png",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面 1"
+    },
+    {
+      "name": "tiles/indoor/floor_2.png",
+      "x": 18,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面 2"
+    },
+    {
+      "name": "tiles/indoor/floor_3.png",
+      "x": 36,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面 3"
+    },
+    {
+      "name": "tiles/indoor/carpet.png",
+      "x": 54,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 红毯"
+    },
+    {
+      "name": "tiles/indoor/wall.png",
+      "x": 72,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙"
+    },
+    {
+      "name": "tiles/indoor/wall_window.png",
+      "x": 90,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 窗"
+    },
+    {
+      "name": "tiles/indoor/wall_poster.png",
+      "x": 108,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 海报"
+    },
+    {
+      "name": "tiles/indoor/wall_graffiti.png",
+      "x": 126,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 涂鸦"
+    },
+    {
+      "name": "tiles/indoor/wall_crack.png",
+      "x": 144,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 裂缝"
+    },
+    {
+      "name": "tiles/indoor/wall_sign.png",
+      "x": 162,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 指示牌"
+    },
+    {
+      "name": "tiles/indoor/wall_neon.png",
+      "x": 180,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 霓虹招牌"
+    },
+    {
+      "name": "tiles/indoor/wall_whiteboard.png",
+      "x": 198,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 白板"
+    },
+    {
+      "name": "tiles/indoor/wall_painting.png",
+      "x": 216,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 挂画"
+    },
+    {
+      "name": "tiles/indoor/wall_banner.png",
+      "x": 234,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 横幅"
+    },
+    {
+      "name": "tiles/indoor/wall_elevator.png",
+      "x": 0,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 墙 · 电梯门"
+    },
+    {
+      "name": "tiles/indoor/column.png",
+      "x": 18,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 柱子"
+    },
+    {
+      "name": "tiles/indoor/crate.png",
+      "x": 36,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 木箱"
+    },
+    {
+      "name": "tiles/indoor/desk.png",
+      "x": 54,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 办公桌"
+    },
+    {
+      "name": "tiles/indoor/car.png",
+      "x": 72,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 报废车"
+    },
+    {
+      "name": "tiles/indoor/rail.png",
+      "x": 90,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 护栏"
+    },
+    {
+      "name": "tiles/indoor/pump.png",
+      "x": 108,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 加油机"
+    },
+    {
+      "name": "tiles/indoor/rubble.png",
+      "x": 126,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 瓦砾"
+    },
+    {
+      "name": "tiles/indoor/hydrant.png",
+      "x": 144,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 消防栓"
+    },
+    {
+      "name": "tiles/indoor/sand.png",
+      "x": 162,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 沙地"
+    },
+    {
+      "name": "tiles/indoor/meeting_table.png",
+      "x": 180,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 会议长桌"
+    },
+    {
+      "name": "tiles/indoor/cabinet.png",
+      "x": 198,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 档案柜 / 机柜"
+    },
+    {
+      "name": "tiles/indoor/cooler.png",
+      "x": 216,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 饮水机 / 空调"
+    },
+    {
+      "name": "tiles/indoor/vending_machine.png",
+      "x": 234,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 室外售货机"
+    },
+    {
+      "name": "tiles/indoor/trash_can.png",
+      "x": 0,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 垃圾桶"
+    },
+    {
+      "name": "tiles/indoor/phone_booth.png",
+      "x": 18,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 电话亭"
+    },
+    {
+      "name": "tiles/indoor/mailbox.png",
+      "x": 36,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 邮筒"
+    },
+    {
+      "name": "tiles/indoor/tire_stack.png",
+      "x": 54,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 轮胎堆"
+    },
+    {
+      "name": "tiles/indoor/dead_tree.png",
+      "x": 72,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 枯树"
+    },
+    {
+      "name": "tiles/indoor/sandbags.png",
+      "x": 90,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 沙袋"
+    },
+    {
+      "name": "tiles/indoor/campfire.png",
+      "x": 108,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 篝火"
+    },
+    {
+      "name": "tiles/indoor/road_sign.png",
+      "x": 126,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 路牌"
+    },
+    {
+      "name": "tiles/indoor/stall.png",
+      "x": 144,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 路边摊"
+    },
+    {
+      "name": "tiles/indoor/potted_plant.png",
+      "x": 162,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 盆栽"
+    },
+    {
+      "name": "tiles/indoor/decal_puddle.png",
+      "x": 180,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面痕迹 · 水洼"
+    },
+    {
+      "name": "tiles/indoor/decal_blood.png",
+      "x": 198,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面痕迹 · 血迹"
+    },
+    {
+      "name": "tiles/indoor/decal_shells.png",
+      "x": 216,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面痕迹 · 弹壳"
+    },
+    {
+      "name": "tiles/indoor/decal_traffic_cone.png",
+      "x": 234,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面痕迹 · 交通锥"
+    },
+    {
+      "name": "tiles/indoor/decal_grate.png",
+      "x": 0,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面痕迹 · 格栅"
+    },
+    {
+      "name": "tiles/indoor/decal_scorch.png",
+      "x": 18,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 地面痕迹 · 焦痕"
+    },
+    {
+      "name": "tiles/indoor/road.png",
+      "x": 36,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 公路路面"
+    },
+    {
+      "name": "tiles/indoor/rails.png",
+      "x": 54,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 铁轨"
+    },
+    {
+      "name": "tiles/indoor/glass.png",
+      "x": 72,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 玻璃隔断"
+    },
+    {
+      "name": "tiles/indoor/street_lamp.png",
+      "x": 90,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 路灯"
+    },
+    {
+      "name": "tiles/indoor/street_lamp_broken.png",
+      "x": 108,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 路灯 · 被打灭"
+    },
+    {
+      "name": "tiles/indoor/gate_locked.png",
+      "x": 126,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 闸门 · 落下"
+    },
+    {
+      "name": "tiles/indoor/gate_open.png",
+      "x": 144,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "大建筑室内 · 闸门 · 敞开"
+    }
+  ]
+}

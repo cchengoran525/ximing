@@ -1,0 +1,416 @@
+{
+  "image": "tiles_council.png",
+  "tileSize": 16,
+  "scale": 1,
+  "source": "../tiles/council/",
+  "tiles": [
+    {
+      "name": "tiles/council/floor.png",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面 1"
+    },
+    {
+      "name": "tiles/council/floor_2.png",
+      "x": 18,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面 2"
+    },
+    {
+      "name": "tiles/council/floor_3.png",
+      "x": 36,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面 3"
+    },
+    {
+      "name": "tiles/council/carpet.png",
+      "x": 54,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 红毯"
+    },
+    {
+      "name": "tiles/council/wall.png",
+      "x": 72,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙"
+    },
+    {
+      "name": "tiles/council/wall_window.png",
+      "x": 90,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 窗"
+    },
+    {
+      "name": "tiles/council/wall_poster.png",
+      "x": 108,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 海报"
+    },
+    {
+      "name": "tiles/council/wall_graffiti.png",
+      "x": 126,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 涂鸦"
+    },
+    {
+      "name": "tiles/council/wall_crack.png",
+      "x": 144,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 裂缝"
+    },
+    {
+      "name": "tiles/council/wall_sign.png",
+      "x": 162,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 指示牌"
+    },
+    {
+      "name": "tiles/council/wall_neon.png",
+      "x": 180,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 霓虹招牌"
+    },
+    {
+      "name": "tiles/council/wall_whiteboard.png",
+      "x": 198,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 白板"
+    },
+    {
+      "name": "tiles/council/wall_painting.png",
+      "x": 216,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 挂画"
+    },
+    {
+      "name": "tiles/council/wall_banner.png",
+      "x": 234,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 横幅"
+    },
+    {
+      "name": "tiles/council/wall_elevator.png",
+      "x": 0,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 墙 · 电梯门"
+    },
+    {
+      "name": "tiles/council/column.png",
+      "x": 18,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 柱子"
+    },
+    {
+      "name": "tiles/council/crate.png",
+      "x": 36,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 木箱"
+    },
+    {
+      "name": "tiles/council/desk.png",
+      "x": 54,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 办公桌"
+    },
+    {
+      "name": "tiles/council/car.png",
+      "x": 72,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 报废车"
+    },
+    {
+      "name": "tiles/council/rail.png",
+      "x": 90,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 护栏"
+    },
+    {
+      "name": "tiles/council/pump.png",
+      "x": 108,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 加油机"
+    },
+    {
+      "name": "tiles/council/rubble.png",
+      "x": 126,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 瓦砾"
+    },
+    {
+      "name": "tiles/council/hydrant.png",
+      "x": 144,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 消防栓"
+    },
+    {
+      "name": "tiles/council/sand.png",
+      "x": 162,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 沙地"
+    },
+    {
+      "name": "tiles/council/meeting_table.png",
+      "x": 180,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 会议长桌"
+    },
+    {
+      "name": "tiles/council/cabinet.png",
+      "x": 198,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 档案柜 / 机柜"
+    },
+    {
+      "name": "tiles/council/cooler.png",
+      "x": 216,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 饮水机 / 空调"
+    },
+    {
+      "name": "tiles/council/vending_machine.png",
+      "x": 234,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 室外售货机"
+    },
+    {
+      "name": "tiles/council/trash_can.png",
+      "x": 0,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 垃圾桶"
+    },
+    {
+      "name": "tiles/council/phone_booth.png",
+      "x": 18,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 电话亭"
+    },
+    {
+      "name": "tiles/council/mailbox.png",
+      "x": 36,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 邮筒"
+    },
+    {
+      "name": "tiles/council/tire_stack.png",
+      "x": 54,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 轮胎堆"
+    },
+    {
+      "name": "tiles/council/dead_tree.png",
+      "x": 72,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 枯树"
+    },
+    {
+      "name": "tiles/council/sandbags.png",
+      "x": 90,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 沙袋"
+    },
+    {
+      "name": "tiles/council/campfire.png",
+      "x": 108,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 篝火"
+    },
+    {
+      "name": "tiles/council/road_sign.png",
+      "x": 126,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 路牌"
+    },
+    {
+      "name": "tiles/council/stall.png",
+      "x": 144,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 路边摊"
+    },
+    {
+      "name": "tiles/council/potted_plant.png",
+      "x": 162,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 盆栽"
+    },
+    {
+      "name": "tiles/council/decal_puddle.png",
+      "x": 180,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面痕迹 · 水洼"
+    },
+    {
+      "name": "tiles/council/decal_blood.png",
+      "x": 198,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面痕迹 · 血迹"
+    },
+    {
+      "name": "tiles/council/decal_shells.png",
+      "x": 216,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面痕迹 · 弹壳"
+    },
+    {
+      "name": "tiles/council/decal_traffic_cone.png",
+      "x": 234,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面痕迹 · 交通锥"
+    },
+    {
+      "name": "tiles/council/decal_grate.png",
+      "x": 0,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面痕迹 · 格栅"
+    },
+    {
+      "name": "tiles/council/decal_scorch.png",
+      "x": 18,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 地面痕迹 · 焦痕"
+    },
+    {
+      "name": "tiles/council/road.png",
+      "x": 36,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 公路路面"
+    },
+    {
+      "name": "tiles/council/rails.png",
+      "x": 54,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 铁轨"
+    },
+    {
+      "name": "tiles/council/glass.png",
+      "x": 72,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 玻璃隔断"
+    },
+    {
+      "name": "tiles/council/street_lamp.png",
+      "x": 90,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 路灯"
+    },
+    {
+      "name": "tiles/council/street_lamp_broken.png",
+      "x": 108,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 路灯 · 被打灭"
+    },
+    {
+      "name": "tiles/council/gate_locked.png",
+      "x": 126,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 闸门 · 落下"
+    },
+    {
+      "name": "tiles/council/gate_open.png",
+      "x": 144,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "议事厅 · 闸门 · 敞开"
+    }
+  ]
+}

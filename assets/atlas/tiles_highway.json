@@ -1,0 +1,416 @@
+{
+  "image": "tiles_highway.png",
+  "tileSize": 16,
+  "scale": 1,
+  "source": "../tiles/highway/",
+  "tiles": [
+    {
+      "name": "tiles/highway/floor.png",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面 1"
+    },
+    {
+      "name": "tiles/highway/floor_2.png",
+      "x": 18,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面 2"
+    },
+    {
+      "name": "tiles/highway/floor_3.png",
+      "x": 36,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面 3"
+    },
+    {
+      "name": "tiles/highway/carpet.png",
+      "x": 54,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 红毯"
+    },
+    {
+      "name": "tiles/highway/wall.png",
+      "x": 72,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙"
+    },
+    {
+      "name": "tiles/highway/wall_window.png",
+      "x": 90,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 窗"
+    },
+    {
+      "name": "tiles/highway/wall_poster.png",
+      "x": 108,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 海报"
+    },
+    {
+      "name": "tiles/highway/wall_graffiti.png",
+      "x": 126,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 涂鸦"
+    },
+    {
+      "name": "tiles/highway/wall_crack.png",
+      "x": 144,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 裂缝"
+    },
+    {
+      "name": "tiles/highway/wall_sign.png",
+      "x": 162,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 指示牌"
+    },
+    {
+      "name": "tiles/highway/wall_neon.png",
+      "x": 180,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 霓虹招牌"
+    },
+    {
+      "name": "tiles/highway/wall_whiteboard.png",
+      "x": 198,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 白板"
+    },
+    {
+      "name": "tiles/highway/wall_painting.png",
+      "x": 216,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 挂画"
+    },
+    {
+      "name": "tiles/highway/wall_banner.png",
+      "x": 234,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 横幅"
+    },
+    {
+      "name": "tiles/highway/wall_elevator.png",
+      "x": 0,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 墙 · 电梯门"
+    },
+    {
+      "name": "tiles/highway/column.png",
+      "x": 18,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 柱子"
+    },
+    {
+      "name": "tiles/highway/crate.png",
+      "x": 36,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 木箱"
+    },
+    {
+      "name": "tiles/highway/desk.png",
+      "x": 54,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 办公桌"
+    },
+    {
+      "name": "tiles/highway/car.png",
+      "x": 72,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 报废车"
+    },
+    {
+      "name": "tiles/highway/rail.png",
+      "x": 90,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 护栏"
+    },
+    {
+      "name": "tiles/highway/pump.png",
+      "x": 108,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 加油机"
+    },
+    {
+      "name": "tiles/highway/rubble.png",
+      "x": 126,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 瓦砾"
+    },
+    {
+      "name": "tiles/highway/hydrant.png",
+      "x": 144,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 消防栓"
+    },
+    {
+      "name": "tiles/highway/sand.png",
+      "x": 162,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 沙地"
+    },
+    {
+      "name": "tiles/highway/meeting_table.png",
+      "x": 180,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 会议长桌"
+    },
+    {
+      "name": "tiles/highway/cabinet.png",
+      "x": 198,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 档案柜 / 机柜"
+    },
+    {
+      "name": "tiles/highway/cooler.png",
+      "x": 216,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 饮水机 / 空调"
+    },
+    {
+      "name": "tiles/highway/vending_machine.png",
+      "x": 234,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 室外售货机"
+    },
+    {
+      "name": "tiles/highway/trash_can.png",
+      "x": 0,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 垃圾桶"
+    },
+    {
+      "name": "tiles/highway/phone_booth.png",
+      "x": 18,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 电话亭"
+    },
+    {
+      "name": "tiles/highway/mailbox.png",
+      "x": 36,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 邮筒"
+    },
+    {
+      "name": "tiles/highway/tire_stack.png",
+      "x": 54,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 轮胎堆"
+    },
+    {
+      "name": "tiles/highway/dead_tree.png",
+      "x": 72,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 枯树"
+    },
+    {
+      "name": "tiles/highway/sandbags.png",
+      "x": 90,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 沙袋"
+    },
+    {
+      "name": "tiles/highway/campfire.png",
+      "x": 108,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 篝火"
+    },
+    {
+      "name": "tiles/highway/road_sign.png",
+      "x": 126,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 路牌"
+    },
+    {
+      "name": "tiles/highway/stall.png",
+      "x": 144,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 路边摊"
+    },
+    {
+      "name": "tiles/highway/potted_plant.png",
+      "x": 162,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 盆栽"
+    },
+    {
+      "name": "tiles/highway/decal_puddle.png",
+      "x": 180,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面痕迹 · 水洼"
+    },
+    {
+      "name": "tiles/highway/decal_blood.png",
+      "x": 198,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面痕迹 · 血迹"
+    },
+    {
+      "name": "tiles/highway/decal_shells.png",
+      "x": 216,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面痕迹 · 弹壳"
+    },
+    {
+      "name": "tiles/highway/decal_traffic_cone.png",
+      "x": 234,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面痕迹 · 交通锥"
+    },
+    {
+      "name": "tiles/highway/decal_grate.png",
+      "x": 0,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面痕迹 · 格栅"
+    },
+    {
+      "name": "tiles/highway/decal_scorch.png",
+      "x": 18,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 地面痕迹 · 焦痕"
+    },
+    {
+      "name": "tiles/highway/road.png",
+      "x": 36,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 公路路面"
+    },
+    {
+      "name": "tiles/highway/rails.png",
+      "x": 54,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 铁轨"
+    },
+    {
+      "name": "tiles/highway/glass.png",
+      "x": 72,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 玻璃隔断"
+    },
+    {
+      "name": "tiles/highway/street_lamp.png",
+      "x": 90,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 路灯"
+    },
+    {
+      "name": "tiles/highway/street_lamp_broken.png",
+      "x": 108,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 路灯 · 被打灭"
+    },
+    {
+      "name": "tiles/highway/gate_locked.png",
+      "x": 126,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 闸门 · 落下"
+    },
+    {
+      "name": "tiles/highway/gate_open.png",
+      "x": 144,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "城市外公路 · 闸门 · 敞开"
+    }
+  ]
+}

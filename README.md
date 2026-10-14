@@ -77,20 +77,30 @@ URL 加 `?debug=1` 后：
 | F5 | 清空当前区域敌人 |
 | F6 | 回满状态 |
 
+## 美术素材
+
+游戏里的全部美术（角色、敌人、Boss、地形瓦片、道具、载具、武器图标）都已经导出成通用图片资源放在 **`assets/`**：PNG 单图 + 图集 + 坐标 JSON + 调色板 + 像素表源数据，另有 1x/2x/4x/8x 多种尺寸，可直接导入 Godot / Unity / Aseprite 等。详见 [assets/README.md](assets/README.md)。
+
+改了美术后重新导出：`npm run export-assets`。
+
 ## 目录
 
 ```
 index.html            入口（开发版）
 standalone.html       单文件版（双击即玩）
+assets/               美术素材包（PNG/图集/清单，见其 README）
 serve.py              开发服务器（端口 8130，禁缓存）
 启动游戏.command       双击启动脚本
 tools/build.py        单文件版构建脚本
+tools/export.mjs      美术素材导出脚本
 src/
   main.js             主循环 / 标题页 / 转场
   state.js            全局状态单例（含摄像机）
   utils.js input.js audio.js save.js
   art.js sprites.js   像素表与精灵工厂
-  data_weapons.js data_enemies.js data_buffs.js
+  props_art.js        道具 / 载具 / 摄像头绘制（游戏与导出脚本共用）
+  data_weapons.js data_enemies.js data_buffs.js data_skills.js
+  data_affixes.js data_contracts.js data_achievements.js
   data_biomes.js data_dialog.js    数据表（剧情/配置）
   world.js roomgen.js              瓦片世界 / 大地图楼层生成
   player.js enemy.js companion.js  角色 / 敌人Boss / 齐青

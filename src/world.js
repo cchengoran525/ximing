@@ -483,6 +483,34 @@ export function setDecal(room, x, y, tile) {
   if (t === T.FLOOR || t === T.FLOOR2 || t === T.FLOOR3 || t === T.CARPET) room.grid[i] = tile;
 }
 
+// 闸门瓦片（走廊口）：locked=落下 / false=敞开
+export function drawGateTile(ctx, biome, px, py, time = 0, locked = true) {
+  drawFloorTile(ctx, biome, T.FLOOR, px, py, 7, 9);
+  if (locked) {
+    ctx.fillStyle = '#3a3f46'; ctx.fillRect(px, py, TS, TS);
+    ctx.fillStyle = '#2b2f35';
+    for (let i = 2; i < TS; i += 4) ctx.fillRect(px, py + i, TS, 1);
+    ctx.fillStyle = '#c04a3a';
+    ctx.globalAlpha = Math.sin(time * 6) > 0 ? 1 : 0.35;
+    ctx.fillRect(px + 6, py + 7, 3, 3);
+    ctx.globalAlpha = 1;
+  } else {
+    ctx.fillStyle = 'rgba(0,0,0,0.18)';
+    ctx.fillRect(px, py, TS, 2);
+  }
+}
+
+// 素材导出用：把单个瓦片画到指定位置
+export function exportTileTo(ctx, biomeId, tile, px = 0, py = 0, time = 0.3, opts = {}) {
+  const biome = BIOMES[biomeId];
+  if (tile === T.GATE) { drawGateTile(ctx, biome, px, py, time, opts.locked !== false); return; }
+  if (WALL_TILES.has(tile)) { drawWallTile(ctx, biome, tile, px, py, 3, 5, time); return; }
+  // 痕迹类瓦片先铺一层地面，方便当叠加层用
+  const isDecal = tile >= T.PUDDLE && tile <= T.GRATE || tile === T.SCORCH;
+  drawFloorTile(ctx, biome, isDecal ? T.FLOOR : tile, px, py, 3, 5);
+  if (tile >= T.COLUMN) drawObstacle(ctx, biome, tile, px, py, 3, 5, time);
+}
+
 export function drawRoom(ctx, room, time, cam = { x: 0, y: 0 }) {
   const biome = BIOMES[room.biomeId];
   const tx0 = Math.max(0, Math.floor(cam.x / TS));
@@ -497,19 +525,7 @@ export function drawRoom(ctx, room, time, cam = { x: 0, y: 0 }) {
       if (t === T.GATE) {
         const reg = room.gates.get(gy * room.w + gx);
         const locked = reg && room.lockedRegions.has(reg);
-        drawFloorTile(ctx, biome, T.FLOOR, px, py, gx, gy);
-        if (locked) {
-          ctx.fillStyle = '#3a3f46'; ctx.fillRect(px, py, TS, TS);
-          ctx.fillStyle = '#2b2f35';
-          for (let i = 2; i < TS; i += 4) ctx.fillRect(px, py + i, TS, 1);
-          ctx.fillStyle = '#c04a3a';
-          ctx.globalAlpha = Math.sin(time * 6) > 0 ? 1 : 0.35;
-          ctx.fillRect(px + 6, py + 7, 3, 3);
-          ctx.globalAlpha = 1;
-        } else {
-          ctx.fillStyle = 'rgba(0,0,0,0.18)';
-          ctx.fillRect(px, py, TS, 2);
-        }
+        drawGateTile(ctx, biome, px, py, time, locked);
         continue;
       }
       if (isWallTile(t)) { drawWallTile(ctx, biome, t, px, py, gx, gy, time); continue; }

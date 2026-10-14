@@ -1,0 +1,58 @@
+{
+  "indoor": {
+    "name": "大建筑室内",
+    "floor": [
+      "#6e5a44",
+      "#66543e",
+      "#756046"
+    ],
+    "floorAccent": "#5a4a38",
+    "grout": "#574834",
+    "wall": "#4a3c38",
+    "wallTop": "#5c4c46",
+    "wallLine": "#332a28",
+    "accent": "#8c6a3a"
+  },
+  "street": {
+    "name": "室外街道",
+    "floor": [
+      "#4a4a52",
+      "#44444c",
+      "#505058"
+    ],
+    "floorAccent": "#3a3a42",
+    "grout": "#3c3c44",
+    "wall": "#5a4a3c",
+    "wallTop": "#6e5c4a",
+    "wallLine": "#3c3229",
+    "accent": "#c86a5a"
+  },
+  "highway": {
+    "name": "城市外公路",
+    "floor": [
+      "#5a5044",
+      "#544a3e",
+      "#605648"
+    ],
+    "floorAccent": "#453d33",
+    "grout": "#4a4238",
+    "wall": "#6a5a42",
+    "wallTop": "#7c6a4e",
+    "wallLine": "#463a2c",
+    "accent": "#d8a04a"
+  },
+  "council": {
+    "name": "议事厅",
+    "floor": [
+      "#8a8a92",
+      "#82828a",
+      "#929299"
+    ],
+    "floorAccent": "#6e6e78",
+    "grout": "#6a6a74",
+    "wall": "#463c44",
+    "wallTop": "#5a4c56",
+    "wallLine": "#2e2830",
+    "accent": "#8c2f3a"
+  }
+}

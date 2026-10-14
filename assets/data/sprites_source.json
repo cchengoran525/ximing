@@ -1,0 +1,1038 @@
+{
+  "speaker": {
+    "pal": {
+      "O": "#131318",
+      "R": "#3a3040",
+      "r": "#4c4058",
+      "W": "#e8e6e0",
+      "S": "#d8c0a8",
+      "E": "#e0a33c",
+      "T": "#c8a04a",
+      "G": "#6a6a74",
+      "g": "#4a4a54"
+    },
+    "rows": [
+      "................................",
+      "............OOOOOOOO............",
+      "..........OORRRRRRRROO..........",
+      "..........OTTTTTTTTTTO..........",
+      "..........ORRRRRRRRRRO..........",
+      ".........ORRRRRRRRRRRRO.........",
+      ".........OSSSSSSSSSSSSO.........",
+      ".........OSESSSSSSSSESO.........",
+      ".........OSSSSSSSSSSSSO.........",
+      ".........OSSSSSSSSSSSSO.........",
+      ".........OWWWWWWWWWWWWO.........",
+      ".........OWWWWWWWWWWWWO.........",
+      ".........ORRRRRRRRRRRRO.........",
+      ".........ORRrrRRRRrrRRO.........",
+      ".........ORRRRRRRRRRRRO.........",
+      ".........ORRTTTTTTTTRRO.........",
+      ".........ORRTTTTTTTTRRO.........",
+      ".........ORRRRRRRRRRRRO.........",
+      ".........ORRRRRRRRRRRRO.........",
+      "........ORRRRRRRRRRRRRRO........",
+      "........ORRRRRRRRRRRRRRO........",
+      "........ORRRRRRRRGGGGggO........",
+      "........ORRRRRRRRggggggO........",
+      "........ORRRRRRRRRRRRRRO........",
+      "........ORRRRRRRRRRRRRRO........",
+      ".......ORRRRRRRRRRRRRRRRO.......",
+      ".......ORRRRRRRRRRRRRRRRO.......",
+      ".......ORRRRRROOOOOORRRRO.......",
+      ".......ORRRROOOOOOOOOORRO.......",
+      ".......OOOOOOOOOOOOOOOOOO.......",
+      "................................",
+      "................................"
+    ]
+  },
+  "skill_bomb": {
+    "pal": {
+      "O": "#131318",
+      "R": "#4a5058",
+      "F": "#f2824a"
+    },
+    "rows": [
+      "..........",
+      "........F.",
+      ".......F..",
+      "...OOOO...",
+      "..ORRRRO..",
+      ".ORRRRRRO.",
+      ".ORRRRRRO.",
+      "..ORRRRO..",
+      "...OOOO...",
+      ".........."
+    ]
+  },
+  "skill_decoy": {
+    "pal": {
+      "O": "#131318",
+      "R": "#6fe8e0"
+    },
+    "rows": [
+      "..........",
+      "....OO....",
+      "...ORRO...",
+      "....OO....",
+      "..........",
+      "..OOOOOO..",
+      ".ORRRRRRO.",
+      "..OOOOOO..",
+      "..........",
+      ".........."
+    ]
+  },
+  "skill_bandage": {
+    "pal": {
+      "O": "#131318",
+      "W": "#e9e7e0",
+      "C": "#d84b3a"
+    },
+    "rows": [
+      "..........",
+      ".OOOOOOOO.",
+      ".OWWWWWWO.",
+      ".OWWCCWWO.",
+      ".OWCCCCWO.",
+      ".OWWCCWWO.",
+      ".OWWWWWWO.",
+      ".OOOOOOOO.",
+      "..........",
+      ".........."
+    ]
+  },
+  "player_down_0": {
+    "pal": {
+      "O": "#131318",
+      "W": "#1e1e26",
+      "w": "#6e2230",
+      "H": "#e6bd55",
+      "h": "#bd9339",
+      "S": "#f2c9a0",
+      "s": "#d6a377",
+      "E": "#4a2c22",
+      "B": "#2a2a34",
+      "b": "#3b3b48",
+      "L": "#191920",
+      "R": "#8c2f3a"
+    },
+    "rows": [
+      "................",
+      ".....WWWWWW.....",
+      "....WWWWWWWW....",
+      "...WWWWWWWWWW...",
+      "...wwwwwwwwww...",
+      "..WWWWWWWWWWWW..",
+      "..HHHSSSSSSHHH..",
+      "..H.SSESSSES.H..",
+      "..H.SSSSSSSS.H..",
+      "....SsSSSSsS....",
+      "....RRRRRRRR....",
+      "...BBBBBBBBBB...",
+      "..BbBBBBBBBBbB..",
+      "..B.BBBBBBBB.B..",
+      "....LLL..LLL....",
+      "...LLL....LLL..."
+    ]
+  },
+  "player_down_1": {
+    "pal": {
+      "O": "#131318",
+      "W": "#1e1e26",
+      "w": "#6e2230",
+      "H": "#e6bd55",
+      "h": "#bd9339",
+      "S": "#f2c9a0",
+      "s": "#d6a377",
+      "E": "#4a2c22",
+      "B": "#2a2a34",
+      "b": "#3b3b48",
+      "L": "#191920",
+      "R": "#8c2f3a"
+    },
+    "rows": [
+      "................",
+      ".....WWWWWW.....",
+      "....WWWWWWWW....",
+      "...WWWWWWWWWW...",
+      "...wwwwwwwwww...",
+      "..WWWWWWWWWWWW..",
+      "..HHHSSSSSSHHH..",
+      "..H.SSESSSES.H..",
+      "..H.SSSSSSSS.H..",
+      "....SsSSSSsS....",
+      "....RRRRRRRR....",
+      "...BBBBBBBBBB...",
+      "..BbBBBBBBBBbB..",
+      "..B.BBBBBBBB.B..",
+      "....LLL..LLL....",
+      "....LL....LL...."
+    ]
+  },
+  "player_up_0": {
+    "pal": {
+      "O": "#131318",
+      "W": "#1e1e26",
+      "w": "#6e2230",
+      "H": "#e6bd55",
+      "h": "#bd9339",
+      "S": "#f2c9a0",
+      "s": "#d6a377",
+      "E": "#4a2c22",
+      "B": "#2a2a34",
+      "b": "#3b3b48",
+      "L": "#191920",
+      "R": "#8c2f3a"
+    },
+    "rows": [
+      "................",
+      ".....WWWWWW.....",
+      "....WWWWWWWW....",
+      "...WWWWWWWWWW...",
+      "...wwwwwwwwww...",
+      "..WWWWWWWWWWWW..",
+      "..HHHHHHHHHHHH..",
+      "..HHHHHHHHHHHH..",
+      "..HhHHHHHHHHhH..",
+      "....hHHHHHHh....",
+      "....RRRRRRRR....",
+      "...BBBBBBBBBB...",
+      "..BbBBBBBBBBbB..",
+      "..B.BBBBBBBB.B..",
+      "....LLL..LLL....",
+      "...LLL....LLL..."
+    ]
+  },
+  "player_up_1": {
+    "pal": {
+      "O": "#131318",
+      "W": "#1e1e26",
+      "w": "#6e2230",
+      "H": "#e6bd55",
+      "h": "#bd9339",
+      "S": "#f2c9a0",
+      "s": "#d6a377",
+      "E": "#4a2c22",
+      "B": "#2a2a34",
+      "b": "#3b3b48",
+      "L": "#191920",
+      "R": "#8c2f3a"
+    },
+    "rows": [
+      "................",
+      ".....WWWWWW.....",
+      "....WWWWWWWW....",
+      "...WWWWWWWWWW...",
+      "...wwwwwwwwww...",
+      "..WWWWWWWWWWWW..",
+      "..HHHHHHHHHHHH..",
+      "..HHHHHHHHHHHH..",
+      "..HhHHHHHHHHhH..",
+      "....hHHHHHHh....",
+      "....RRRRRRRR....",
+      "...BBBBBBBBBB...",
+      "..BbBBBBBBBBbB..",
+      "..B.BBBBBBBB.B..",
+      "....LLL..LLL....",
+      "....LL....LL...."
+    ]
+  },
+  "player_side_0": {
+    "pal": {
+      "O": "#131318",
+      "W": "#1e1e26",
+      "w": "#6e2230",
+      "H": "#e6bd55",
+      "h": "#bd9339",
+      "S": "#f2c9a0",
+      "s": "#d6a377",
+      "E": "#4a2c22",
+      "B": "#2a2a34",
+      "b": "#3b3b48",
+      "L": "#191920",
+      "R": "#8c2f3a"
+    },
+    "rows": [
+      "................",
+      ".....WWWWWW.....",
+      "....WWWWWWWWW...",
+      "...WWWWWWWWWWW..",
+      "...wwwwwwwwwww..",
+      "..WWWWWWWWWWWW..",
+      "...HHHHSSSSS....",
+      "...HHH.SSSES....",
+      "...HHH.SSSSS....",
+      ".....SsSSSS.....",
+      ".....RRRRR......",
+      "....BBBBBBB.....",
+      "....bBBBBBb.....",
+      "....BBBBBBB.....",
+      ".....LLLL.......",
+      "....LLL.LL......"
+    ]
+  },
+  "player_side_1": {
+    "pal": {
+      "O": "#131318",
+      "W": "#1e1e26",
+      "w": "#6e2230",
+      "H": "#e6bd55",
+      "h": "#bd9339",
+      "S": "#f2c9a0",
+      "s": "#d6a377",
+      "E": "#4a2c22",
+      "B": "#2a2a34",
+      "b": "#3b3b48",
+      "L": "#191920",
+      "R": "#8c2f3a"
+    },
+    "rows": [
+      "................",
+      ".....WWWWWW.....",
+      "....WWWWWWWWW...",
+      "...WWWWWWWWWWW..",
+      "...wwwwwwwwwww..",
+      "..WWWWWWWWWWWW..",
+      "...HHHHSSSSS....",
+      "...HHH.SSSES....",
+      "...HHH.SSSSS....",
+      ".....SsSSSS.....",
+      ".....RRRRR......",
+      "....BBBBBBB.....",
+      "....bBBBBBb.....",
+      "....BBBBBBB.....",
+      ".....LLLL.......",
+      "...LL....LL....."
+    ]
+  },
+  "qiqing_down_0": {
+    "pal": {
+      "O": "#131318",
+      "F": "#7b7f88",
+      "f": "#565a63",
+      "M": "#a7abb4",
+      "E": "#e0a33c",
+      "C": "#e9e7e0",
+      "c": "#c6c3ba",
+      "B": "#2c2c34",
+      "N": "#1d1d24",
+      "W": "#ecebe6",
+      "w": "#c2bfb6"
+    },
+    "rows": [
+      "................",
+      "..FFF.WWWW.FFF..",
+      "..FFFFWWWWWWFF..",
+      "..WWWWWWWWWWWW..",
+      "..wwwwwwwwwwww..",
+      "..FEFFFFFFFFEF..",
+      "..FFFFMMMMFFFF..",
+      "..FFFMMNMMFFF...",
+      "...FFMMMMMMF....",
+      "....FFFFFF......",
+      "....CCCCCCCC....",
+      "...CCCCCCCCCC...",
+      "...CcCCCCCCcC...",
+      "...CCCCCCCCCC...",
+      "....BB....BB....",
+      "....BB....BB...."
+    ]
+  },
+  "qiqing_down_1": {
+    "pal": {
+      "O": "#131318",
+      "F": "#7b7f88",
+      "f": "#565a63",
+      "M": "#a7abb4",
+      "E": "#e0a33c",
+      "C": "#e9e7e0",
+      "c": "#c6c3ba",
+      "B": "#2c2c34",
+      "N": "#1d1d24",
+      "W": "#ecebe6",
+      "w": "#c2bfb6"
+    },
+    "rows": [
+      "................",
+      "..FFF.WWWW.FFF..",
+      "..FFFFWWWWWWFF..",
+      "..WWWWWWWWWWWW..",
+      "..wwwwwwwwwwww..",
+      "..FEFFFFFFFFEF..",
+      "..FFFFMMMMFFFF..",
+      "..FFFMMNMMFFF...",
+      "...FFMMMMMMF....",
+      "....FFFFFF......",
+      "....CCCCCCCC....",
+      "...CCCCCCCCCC...",
+      "...CcCCCCCCcC...",
+      "...CCCCCCCCCC...",
+      "....BB....BB....",
+      "...BB......BB..."
+    ]
+  },
+  "qiqing_up_0": {
+    "pal": {
+      "O": "#131318",
+      "F": "#7b7f88",
+      "f": "#565a63",
+      "M": "#a7abb4",
+      "E": "#e0a33c",
+      "C": "#e9e7e0",
+      "c": "#c6c3ba",
+      "B": "#2c2c34",
+      "N": "#1d1d24",
+      "W": "#ecebe6",
+      "w": "#c2bfb6"
+    },
+    "rows": [
+      "................",
+      "..FFF.WWWW.FFF..",
+      "..FFFFWWWWWWFF..",
+      "..WWWWWWWWWWWW..",
+      "..wwwwwwwwwwww..",
+      "..FFfFFFFFFfFF..",
+      "..FFFFFFFFFFFF..",
+      "..FFffFFFFffFF..",
+      "..FFFFFFFFFFFF..",
+      "....FFFFFF......",
+      "....CCCCCCCC....",
+      "...CCCCCCCCCC...",
+      "...CcCCCCCCcC...",
+      "...CCCCCCCCCC...",
+      "....BB....BB....",
+      "....BB....BB...."
+    ]
+  },
+  "qiqing_side_0": {
+    "pal": {
+      "O": "#131318",
+      "F": "#7b7f88",
+      "f": "#565a63",
+      "M": "#a7abb4",
+      "E": "#e0a33c",
+      "C": "#e9e7e0",
+      "c": "#c6c3ba",
+      "B": "#2c2c34",
+      "N": "#1d1d24",
+      "W": "#ecebe6",
+      "w": "#c2bfb6"
+    },
+    "rows": [
+      "................",
+      "...FFF.WWWW.....",
+      "...FFFFWWWWWW...",
+      "..WWWWWWWWWWWWW.",
+      "..wwwwwwwwwwwww.",
+      "..FFFFFEEEFF....",
+      "..FFFFMMMMMF....",
+      "..FFfFMMNMMF....",
+      "...FFMMMMMMF....",
+      "....FFFFF.......",
+      "....CCCCCC......",
+      "...CCCCCCCC.....",
+      "...cCCCCCCc.....",
+      "...CCCCCCCC.....",
+      "....BB..BB......",
+      "....BB..BB......"
+    ]
+  },
+  "guard": {
+    "pal": {
+      "K": "#2e3a52",
+      "k": "#222b3e",
+      "S": "#e8c39a",
+      "E": "#3a2a20",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      ".....KKKKKK.....",
+      "....KKKKKKKK....",
+      "....kkkkkkkk....",
+      "....SSSSSSSS....",
+      "....SESSSSES....",
+      "....SSSSSSSS....",
+      ".....SSSSSS.....",
+      "....KKKKKKKK....",
+      "...KKkKKKKkKK...",
+      "...K.KKKKKK.K...",
+      "....KKKKKKKK....",
+      "....KK....KK....",
+      "....KK....KK....",
+      "....OO....OO....",
+      "................"
+    ]
+  },
+  "swat": {
+    "pal": {
+      "A": "#3a3f46",
+      "a": "#4d545e",
+      "V": "#6fd8e0",
+      "S": "#e8c39a",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      ".....AAAAAA.....",
+      "....AAAAAAAA....",
+      "....AVVVVVVA....",
+      "....AAAAAAAA....",
+      "....SSSSSSSS....",
+      "....AAAAAAAA....",
+      "...AAaAAAAaAA...",
+      "...AAAAAAAAAA...",
+      "...A.AAAAAA.A...",
+      "....AAAAAAAA....",
+      "....AA....AA....",
+      "....AA....AA....",
+      "....OO....OO....",
+      "................",
+      "................"
+    ]
+  },
+  "drone": {
+    "pal": {
+      "D": "#5a6069",
+      "R": "#8c3038",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "................",
+      "..DDDDDDDDDDDD..",
+      "...D..DDDD..D...",
+      "....DDDDDDDD....",
+      "...DDDDDDDDDD...",
+      "...DDDDDDDDDD...",
+      "...D.DRRRRD.D...",
+      "....D.RRRRD.....",
+      ".....RRRRRR.....",
+      "......RRRR......",
+      ".......RR.......",
+      "................",
+      "................",
+      "................",
+      "................"
+    ]
+  },
+  "turret": {
+    "pal": {
+      "C": "#4a5058",
+      "R": "#c04a3a",
+      "M": "#33373d",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "................",
+      "................",
+      ".....CCCCCC.....",
+      "....CCCCCCCC....",
+      "....CCRRRRCC....",
+      "....CCCCCCCC....",
+      ".....CCCCCC.....",
+      "....MM.MM.MM....",
+      "....MM.MM.MM....",
+      "...MMMMMMMMMM...",
+      "................",
+      "................",
+      "................",
+      "................",
+      "................"
+    ]
+  },
+  "dog": {
+    "pal": {
+      "D": "#6b5f52",
+      "O": "#131318",
+      "E": "#e05540",
+      "M": "#8f8272"
+    },
+    "rows": [
+      "................",
+      "................",
+      "..OO......OO....",
+      "..ODO....ODO....",
+      "..ODDDDDDDDO....",
+      "..ODEDDDED O....",
+      "..ODDDMMMDDO....",
+      "...ODDDDDDO.....",
+      "...ODDDDDDO.....",
+      "..ODDDDDDDDOO...",
+      "..ODDDDDDDDOOO..",
+      "..ODDDDDDDDO....",
+      "..OO.OO..OO.O...",
+      "...O..O..O..O...",
+      "................",
+      "................"
+    ]
+  },
+  "riot": {
+    "pal": {
+      "A": "#39414b",
+      "a": "#4d5764",
+      "V": "#6fd8e0",
+      "S": "#545c68",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "....AAAAAAAA....",
+      "...AAAAAAAAAA...",
+      "...AVVVVVVVVA...",
+      "...AAAAAAAAAA...",
+      "....SSSSSSSS....",
+      "..AAAAAAAAAAAA..",
+      ".AAaAAAAAAAAaAA.",
+      ".AAAAAAAAAAAAAA.",
+      ".AAAAAAAAAAAAAA.",
+      ".SSSSSSSSSSSSSS.",
+      ".SSSSSSSSSSSSSS.",
+      "..SS.SS..SS.SS..",
+      "..OO.OO..OO.OO..",
+      "................",
+      "................"
+    ]
+  },
+  "biker": {
+    "pal": {
+      "H": "#c8c4ba",
+      "E": "#2a2020",
+      "B": "#7d2c38",
+      "C": "#3a3f46",
+      "W": "#8c3038",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      ".....HHHH.......",
+      "....HHEEHH......",
+      "....HHHHHH......",
+      "...CCHHHHCC.....",
+      "...CCBBBBCC.....",
+      "....CBBBB.......",
+      "....WWWWWW......",
+      "...WWWWWWWW.....",
+      "....WWWWWW......",
+      ".....CWWC.......",
+      ".....OCCO.......",
+      ".....OCCO.......",
+      "....OCCO........",
+      "................",
+      "................"
+    ]
+  },
+  "sniper": {
+    "pal": {
+      "B": "#4a5a3c",
+      "S": "#e8c39a",
+      "E": "#3a2a20",
+      "C": "#5d6b4a",
+      "G": "#2c3036",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "......BBBB......",
+      ".....BBBBBB.....",
+      ".....SSSSSS.....",
+      ".....SESSES.....",
+      "......SSSS......",
+      "GGGGGGGSSGG.....",
+      "GGGGGGGGGGG.....",
+      "......CCCC......",
+      ".....CCCCCC.....",
+      ".....CCCCCC.....",
+      "......C..C......",
+      "......C..C......",
+      "......O..O......",
+      "................",
+      "................"
+    ]
+  },
+  "scav": {
+    "pal": {
+      "J": "#7a6a4f",
+      "j": "#5f523c",
+      "S": "#c9a184",
+      "E": "#3a2a20",
+      "b": "#4a4038",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      ".....JJJJJJ.....",
+      "....JJJJJJJJ....",
+      "....JJSSSSJJ....",
+      "....JJSSESJJ....",
+      "....JJSSSSJJ....",
+      "...JJJJJJJJJJ...",
+      "...JJjJJJJjJJ...",
+      "..JJ.JJJJJJ.JJ..",
+      "..JJ.JJJJJJ.JJ..",
+      "....JJJJJJJJ....",
+      "....JJ....JJ....",
+      "....bb....bb....",
+      "....OO....OO....",
+      "................",
+      "................"
+    ]
+  },
+  "gang": {
+    "pal": {
+      "M": "#c04a6a",
+      "S": "#e8c39a",
+      "E": "#3a2a20",
+      "P": "#3a3440",
+      "p": "#4a4354",
+      "b": "#2a2a34",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "......MMMM......",
+      ".....SSSSSS.....",
+      ".....SESSES.....",
+      ".....SSSSSS.....",
+      "......SSSS......",
+      "....PPPPPPPP....",
+      "...PPpPPPPpPP...",
+      "...PPPPPPPPPP...",
+      "...P.PPPPPP.P...",
+      "....PPPPPPPP....",
+      "....PP....PP....",
+      "....bb....bb....",
+      "....OO....OO....",
+      "................",
+      "................"
+    ]
+  },
+  "commander": {
+    "pal": {
+      "K": "#2b3245",
+      "k": "#1c2230",
+      "S": "#e8c39a",
+      "E": "#3a2a20",
+      "C": "#7d2c38",
+      "M": "#d8b84a",
+      "R": "#8c2f3a",
+      "O": "#131318"
+    },
+    "rows": [
+      "................................",
+      "..........KKKKKKKKKK............",
+      ".........KKKKKKKKKKKK...........",
+      ".........KKKKKKKKKKKK...........",
+      ".........kkkkkkkkkkkk...........",
+      "........kkkkkkkkkkkkkk..........",
+      "................................",
+      "........SSSSSSSSSSSS............",
+      "........SESSSSSSSSES............",
+      "........SSSSSSSSSSSS............",
+      ".........SSSSSSSSSS.............",
+      "........RRRRRRRRRRRR............",
+      ".......CCRRRRRRRRRRCC...........",
+      "......KCCCCCCCCCCCCK............",
+      ".....KKCCCCMMMMCCCCKK...........",
+      "....KKKCCCMMMMCCCCKKK...........",
+      "....KKKCCCCCCCCCCKKK...........",
+      "....KKKCCRRRRRRCCCKKK..........",
+      "....KKKCCCCCCCCCCKKK...........",
+      "....KKKCCCCCCCCCCKKK...........",
+      "....KKCCCCCCCCCCCCKK...........",
+      ".....KCCCCCCCCCCCCK............",
+      ".....KKCCCCCCCCKK...............",
+      ".....KKKCCCCCCKKK...............",
+      "....KKKK.KKKK.KKKK..............",
+      "....KKK...KK...KKK..............",
+      "....OO....OO....OO..............",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................"
+    ]
+  },
+  "riotcrawler": {
+    "pal": {
+      "A": "#39414b",
+      "V": "#7de0e8",
+      "S": "#545c68",
+      "O": "#131318"
+    },
+    "rows": [
+      "................................",
+      "................................",
+      "........AAAAAAAAAAAAAA..........",
+      "......AAAAAAAAAAAAAAAAAA........",
+      ".....AAAVVVVVVVVVVVVVVAAA.......",
+      ".....AAVVVVVVVVVVVVVVVVAAA......",
+      ".....AAAAAAAAAAAAAAAAAAAAA......",
+      "....AAAAAAAAAAAAAAAAAAAAAA......",
+      "....AAAAAAAAAAAAAAAAAAAAAA......",
+      "...AAAAAAAAAAAAAAAAAAAAAAAA.....",
+      "...AAAAAAAAAAAAAAAAAAAAAAAA.....",
+      "...SSSSSSSSSSSSSSSSSSSSSSSS.....",
+      "...SSSSSSSSSSSSSSSSSSSSSSSS.....",
+      "...SSAAAAAAAAAAAAAAAASSSSSS.....",
+      "...SSAAAAAAAAAAAAAAAASSSSSS.....",
+      "...SSSSSSSSSSSSSSSSSSSSSSSS.....",
+      "...SSSSSSSSSSSSSSSSSSSSSSSS.....",
+      "...SSS..SSSS......SSSS..SSS.....",
+      "...SSS..SSSS......SSSS..SSS.....",
+      "...SSS..SSSS......SSSS..SSS.....",
+      "...OOO..OOOO......OOOO..OOO.....",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................"
+    ]
+  },
+  "sandstorm": {
+    "pal": {
+      "B": "#7a5a38",
+      "S": "#e05540",
+      "G": "#5a4a30",
+      "C": "#2a2a30",
+      "O": "#131318"
+    },
+    "rows": [
+      "................................",
+      "................................",
+      "................................",
+      "..........OOOOOOOOOO............",
+      ".......OOOBBBBBBBBBBOOO.........",
+      ".....OOBBBBBBBBBBBBBBBBOO.......",
+      "....OBBBBBBBBBBBBBBBBBBBO.......",
+      "...OBBBBSSBBBBBBBBSSBBBBO.......",
+      "...OBBBSSSSBBBBBBSSSSBBBO.......",
+      "...OBBBBSSBBBBBBBBSSBBBBO.......",
+      "...OBBBBBBBBBBBBBBBBBBBBO.......",
+      "...OBBBGGBBBBBBBBBBGGBBBO.......",
+      "...OBBGGGGBBBBBBBBGGGGBBO.......",
+      "...OBBBGGBBBBBBBBBBGGBBBO.......",
+      "...OBBBBBBBBBBBBBBBBBBBBO.......",
+      "...OBBBBBBBBBBBBBBBBBBBBO.......",
+      "...OOBBBBBBBBBBBBBBBBBBOO.......",
+      "....OOBBBBBBBBBBBBBBBBOO........",
+      ".....OOOOOOOOOOOOOOOOOO.........",
+      ".......OOO......OOO.OOO.........",
+      "......OCCCO....OCCCO............",
+      "......OCCCO....OCCCO............",
+      "......OCCCO....OCCCO............",
+      ".......OOO......OOO.............",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................",
+      "................................"
+    ]
+  },
+  "chest": {
+    "pal": {
+      "C": "#8a6a42",
+      "c": "#6e5433",
+      "g": "#c8a04a",
+      "G": "#e8c14a",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "................",
+      "..OOOOOOOOOOOO..",
+      "..OCCCCCCCCCCO..",
+      "..OCccccccccCO..",
+      "..OOOOOOOOOOOO..",
+      "..OCCC GG CCCO..",
+      "..OCCC GG CCCO..",
+      "..OCCCCCCCCCCO..",
+      "..OggggggggggO..",
+      "..OCCCCCCCCCCO..",
+      "..OOOOOOOOOOOO..",
+      "................",
+      "................",
+      "................",
+      "................"
+    ]
+  },
+  "vend": {
+    "pal": {
+      "R": "#a03a44",
+      "W": "#e8e4da",
+      "G": "#6ac07a",
+      "S": "#d8d4ca",
+      "O": "#131318"
+    },
+    "rows": [
+      "................",
+      "..OOOOOOOOOOOO..",
+      "..ORRRRRRRRRRO..",
+      "..ORWWWWWWWWRO..",
+      "..ORW G  G  WRO..",
+      "..ORW  G G  WRO..",
+      "..ORWWWWWWWWRO..",
+      "..OR GG  GG RRO..",
+      "..ORWWWWWWWWRO..",
+      "..ORRRRRRRRRRO..",
+      "..OROOOOOOOORO..",
+      "..ORO  SLOT OR..",
+      "..OROOOOOOOORO..",
+      "..OOOOOOOOOOOO..",
+      "................",
+      "................"
+    ]
+  },
+  "heart": {
+    "pal": {
+      "R": "#e05a4a",
+      "O": "#131318"
+    },
+    "rows": [
+      ".OO.OO.",
+      "ORROORO",
+      "ORRRRRO",
+      "ORRRRRO",
+      ".ORRRO.",
+      "..ORO..",
+      "...O..."
+    ]
+  },
+  "gear": {
+    "pal": {
+      "G": "#c8a04a",
+      "O": "#131318"
+    },
+    "rows": [
+      "..O.O..",
+      ".OGGGO.",
+      "OGGOOGO",
+      ".OOGOO.",
+      "OGGOOGO",
+      ".OGGGO.",
+      "..O.O.."
+    ]
+  },
+  "energy": {
+    "pal": {
+      "Y": "#e8d84a",
+      "O": "#131318"
+    },
+    "rows": [
+      "..OOO..",
+      ".OYYO..",
+      "..OYYO.",
+      "..OYYOO",
+      "..OYYO.",
+      ".OYYO..",
+      "..OOO.."
+    ]
+  },
+  "umbrella": {
+    "pal": {
+      "A": "#8c2f3a",
+      "G": "#3a3f46",
+      "O": "#131318"
+    },
+    "rows": [
+      "...OO",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OAA",
+      "..OGG"
+    ]
+  },
+  "radio": {
+    "pal": {
+      "C": "#8a6a42",
+      "c": "#3a3028",
+      "G": "#c8a04a",
+      "O": "#131318"
+    },
+    "rows": [
+      "..............",
+      "..OOOOOOOOOO..",
+      "..OCCCCCCCCO..",
+      "..OC.cc.cc.O..",
+      "..OC.cc.cc.O..",
+      "..OCCCCCCCCO..",
+      "..OCGGGGGGCO..",
+      "..OCCCCCCCCO..",
+      "..OOOOOOOOOO..",
+      "...O......O..."
+    ]
+  },
+  "bookshelf": {
+    "pal": {
+      "W": "#6e5433",
+      "R": "#a03a44",
+      "B": "#3d5a8c",
+      "G": "#4a7a52",
+      "O": "#131318"
+    },
+    "rows": [
+      "OOOOOOOOOOOOOOOO",
+      "OWWWWWWWWWWWWWWO",
+      "OWRBGGRBBGGRRBWO",
+      "OWRBGGRBBGGRRBWO",
+      "OWWWWWWWWWWWWWWO",
+      "OWGGRRBBGGRBBGWO",
+      "OWGGRRBBGGRBBGWO",
+      "OWWWWWWWWWWWWWWO",
+      "OWBBGGRRBBGGRRWO",
+      "OWBBGGRRBBGGRRWO",
+      "OWWWWWWWWWWWWWWO",
+      "OWWWWWWWWWWWWWWO",
+      "OOOOOOOOOOOOOOOO"
+    ]
+  },
+  "bed": {
+    "pal": {
+      "C": "#b8a888",
+      "W": "#e8e4da",
+      "O": "#131318"
+    },
+    "rows": [
+      "......................",
+      "OOOOOOOOOOOOOOOOOOOOOO",
+      "OCCCCCCCCCCCCCCCCCCCCO",
+      "OCWWWWCCCCCCCCCCCCCCC0",
+      "OCWWWWCCCCCCCCCCCCCCC0",
+      "OCCCCCCCCCCCCCCCCCCCCO",
+      "OCCCCCCCCCCCCCCCCCCCCO",
+      "OCCCCCCCCCCCCCCCCCCCCO",
+      "OOOOOOOOOOOOOOOOOOOOOO"
+    ]
+  },
+  "bench": {
+    "pal": {
+      "M": "#8a6a42",
+      "O": "#131318"
+    },
+    "rows": [
+      "....................",
+      ".OOOOOOOOOOOOOOOOOO.",
+      ".OMMMMMMMMMMMMMMMMO.",
+      ".OOOOOOOOOOOOOOOOOO.",
+      "..OM............MO..",
+      "..OM............MO.."
+    ]
+  }
+}

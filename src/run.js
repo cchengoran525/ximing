@@ -23,6 +23,7 @@ import { sfx, setSong } from './audio.js';
 import { Input } from './input.js';
 import { addParts, markStat, save, trackKill, trackWeapon, checkAchievements } from './meta.js';
 import { drawSpr, spr } from './sprites.js';
+import { drawPropAt, drawVehicleBody, drawCameraBody } from './props_art.js';
 import { dist, clamp, RNG, text, angleTo } from './utils.js';
 
 const REGION_LABEL = { start: '起点', combat: '街区', elite: '精英', treasure: '储藏室', shop: '售货点', boss: '？？？', vault: '库房', store: '店铺' };
@@ -784,49 +785,11 @@ function drawVehicle(ctx, v, ln) {
   g.addColorStop(1, 'rgba(255,240,190,0)');
   ctx.fillStyle = g;
   ctx.fillRect(v.w / 2, -9, 56, 18);
-  if (v.kind === 'train') {
-    const cars = v.cars || 4;
-    const seg = 26;
-    const head = v.w / 2 - 13;
-    for (let i = 0; i < cars; i++) {
-      const bx = head - i * seg;
-      const engine = i === 0;
-      const isTender = i === 1;
-      ctx.fillStyle = engine ? '#5a3a3a' : isTender ? '#4a4048' : '#38404a';
-      ctx.fillRect(bx - 13, -9, 26, 18);
-      ctx.fillStyle = '#151a22';
-      // 车窗随车厢号错开，看起来像一排窗
-      ctx.fillRect(bx - 10, -7, 6, 6); ctx.fillRect(bx - 10, 1, 6, 6);
-      if (i % 2 === 0) { ctx.fillRect(bx + 1, -7, 6, 6); ctx.fillRect(bx + 1, 1, 6, 6); }
-      ctx.fillStyle = '#8c2f3a';
-      ctx.fillRect(bx - 13, -1, 26, 3);
-      ctx.fillStyle = '#2a2f38';
-      ctx.fillRect(bx - 13, 8, 26, 2);
-      if (engine) {
-        ctx.fillStyle = '#e8c14a';
-        ctx.fillRect(bx + 9, -6, 3, 4); ctx.fillRect(bx + 9, 2, 3, 4);
-        ctx.fillStyle = '#20161a';
-        ctx.fillRect(bx + 11, -8, 3, 5);
-      }
-      // 车厢连接处
-      if (i < cars - 1) { ctx.fillStyle = '#1a1e26'; ctx.fillRect(bx - 14, -4, 2, 8); }
-    }
-  } else if (v.kind === 'truck') {
-    ctx.fillStyle = '#3a4450'; ctx.fillRect(-21, -8, 42, 16);
-    ctx.fillStyle = '#8a9aa8'; ctx.fillRect(-17, -6, 22, 12);
-    ctx.fillStyle = 'rgba(0,0,0,0.3)'; ctx.fillRect(-16, -5, 20, 10);
-    ctx.fillStyle = '#1a1c26'; ctx.fillRect(8, -6, 12, 12);
-    ctx.fillStyle = '#2a2a30'; ctx.fillRect(-18, 5, 8, 4); ctx.fillRect(8, 5, 8, 4);
+  if (v.kind === 'train' || v.kind === 'truck' || v.kind === 'car') {
+    drawVehicleBody(ctx, v.kind, v.w, v.cars || 4);
   } else {
-    const cols = ['#7a3a38', '#3e5568', '#4a6a4a', '#8a7a3a'];
-    ctx.fillStyle = cols[Math.floor(Math.abs(v.x * 0.13)) % 4];
-    ctx.fillRect(-14, -7, 28, 14);
-    ctx.fillStyle = 'rgba(0,0,0,0.28)'; ctx.fillRect(-10, -4, 15, 8);
-    ctx.fillStyle = '#151a22'; ctx.fillRect(-12, -5, 8, 10);
-    ctx.fillStyle = '#2a2a30'; ctx.fillRect(-16, -2, 3, 4); ctx.fillRect(13, -2, 3, 4);
+    drawVehicleBody(ctx, 'car', v.w, 1);
   }
-  ctx.fillStyle = '#f2e8c0';
-  ctx.fillRect(v.w / 2 - 2, -6, 2, 3); ctx.fillRect(v.w / 2 - 2, 3, 2, 3);
   ctx.restore();
 }
 
@@ -944,12 +907,8 @@ function drawCameras(ctx, map) {
     ctx.fill();
     ctx.globalAlpha = 1;
     // 机身
-    ctx.fillStyle = '#3a3f46';
-    ctx.fillRect(c.x - 4, c.y - 4, 8, 6);
-    ctx.fillStyle = c.flash > 0 ? '#fff' : alert ? '#e05540' : '#6fe8e0';
-    ctx.fillRect(c.x - 3, c.y - 6, 6, 3);
-    ctx.fillStyle = '#2a2f38';
-    ctx.fillRect(c.x - 1, c.y + 2, 2, 4);
+    drawCameraBody(ctx, c.x, c.y, alert);
+    if (c.flash > 0) { ctx.fillStyle = '#fff'; ctx.fillRect(c.x - 3, c.y - 6, 6, 3); }
     // 扫描线
     ctx.strokeStyle = alert ? '#e05540' : '#e8c14a';
     ctx.globalAlpha = 0.5;
@@ -1416,115 +1375,15 @@ function startEnding() {
 // ---------------- 渲染道具与拾取 ----------------
 function drawProps(ctx, map) {
   for (const prop of map.props) {
-    if (prop.type === 'chest') {
-      drawSpr(ctx, 'chest', prop.x, prop.y);
-    } else if (prop.type === 'vend') {
-      drawSpr(ctx, 'vend', prop.x, prop.y);
-      const reg = map.regionByKey.get(prop.region);
-      if (reg && reg.stock && G.player && dist(prop.x, prop.y, G.player.x, G.player.y) < 120) {
-        reg.stock.forEach((s, i) => {
-          if (s.sold) return;
-          const col = s.kind === 'weapon' ? '#c9c9c9' : s.kind === 'heal' ? '#6ac07a' : s.kind === 'skill' ? '#6fe8e0' : '#b070e0';
-          ctx.fillStyle = col;
-          ctx.fillRect(prop.x - 16, prop.y - 26 + i * 6, 3, 3);
-          text(ctx, '' + s.price, prop.x - 11, prop.y - 28 + i * 6, { size: 7, color: '#e8c14a' });
-        });
-      }
-    } else if (prop.type === 'bench') {
-      // 合成台：铁砧式工作台
-      ctx.fillStyle = '#5d4a30'; ctx.fillRect(prop.x - 18, prop.y - 5, 36, 13);
-      ctx.fillStyle = '#6e5a3c'; ctx.fillRect(prop.x - 18, prop.y - 5, 36, 4);
-      ctx.fillStyle = '#2e2620'; ctx.fillRect(prop.x - 14, prop.y + 8, 5, 6); ctx.fillRect(prop.x + 9, prop.y + 8, 5, 6);
-      ctx.fillStyle = '#3a3f46'; ctx.fillRect(prop.x - 9, prop.y - 16, 18, 11);
-      ctx.fillStyle = '#8d939c'; ctx.fillRect(prop.x - 7, prop.y - 14, 14, 6);
-      ctx.fillStyle = '#e8c14a'; ctx.fillRect(prop.x + 12, prop.y - 12, 4, 7);
-      if (G.time % 1 < 0.5) { ctx.fillStyle = 'rgba(232,193,85,0.5)'; ctx.fillRect(prop.x - 3, prop.y - 20, 2, 2); }
-    } else if (prop.type === 'board') {
-      // 通缉板
-      ctx.fillStyle = '#3a2f20'; ctx.fillRect(prop.x - 17, prop.y - 26, 34, 30);
-      ctx.fillStyle = '#4a3c28'; ctx.fillRect(prop.x - 15, prop.y - 24, 30, 26);
-      ctx.fillStyle = '#d8d0c0'; ctx.fillRect(prop.x - 12, prop.y - 21, 10, 13);
-      ctx.fillStyle = '#8c3038'; ctx.fillRect(prop.x - 11, prop.y - 19, 8, 2);
-      ctx.fillStyle = '#6a6a78'; ctx.fillRect(prop.x - 11, prop.y - 15, 7, 1); ctx.fillRect(prop.x - 11, prop.y - 13, 8, 1);
-      ctx.fillStyle = '#c8b8a8'; ctx.fillRect(prop.x + 1, prop.y - 17, 10, 9);
-      if (G.run && G.run.contract) {
-        ctx.fillStyle = '#6ac07a';
-        ctx.fillRect(prop.x + 2, prop.y - 15, 8, 2);
-        ctx.fillRect(prop.x + 2, prop.y - 11, 6, 1);
-      } else {
-        ctx.fillStyle = '#8a8a98';
-        ctx.fillRect(prop.x + 2, prop.y - 15, 8, 1); ctx.fillRect(prop.x + 2, prop.y - 12, 6, 1);
-      }
-    } else if (prop.type === 'stairs') {
-      // 楼梯：台阶 + 上下箭头
-      const down = prop.region && G.room.regionByKey.get(prop.dest).level === 1;
-      ctx.fillStyle = '#3a3f46'; ctx.fillRect(prop.x - 12, prop.y - 10, 24, 20);
-      ctx.fillStyle = '#4d545e';
-      for (let i = 0; i < 4; i++) ctx.fillRect(prop.x - 10, prop.y - 8 + i * 5, 20, 3);
-      ctx.fillStyle = down ? '#6fe8e0' : '#e8c14a';
-      ctx.beginPath();
-      if (down) { ctx.moveTo(prop.x + 15, prop.y - 3); ctx.lineTo(prop.x + 21, prop.y + 3); ctx.lineTo(prop.x + 9, prop.y + 3); }
-      else { ctx.moveTo(prop.x + 15, prop.y + 3); ctx.lineTo(prop.x + 21, prop.y - 3); ctx.lineTo(prop.x + 9, prop.y - 3); }
-      ctx.closePath(); ctx.fill();
-    } else if (prop.type === 'elevator') {
-      // 电梯门 + 上下指示灯
-      ctx.fillStyle = '#57606a'; ctx.fillRect(prop.x - 12, prop.y - 12, 24, 24);
-      ctx.fillStyle = '#39414a'; ctx.fillRect(prop.x - 10, prop.y - 10, 9, 20); ctx.fillRect(prop.x + 1, prop.y - 10, 9, 20);
-      const blink = Math.sin(G.time * 4) > 0;
-      ctx.fillStyle = blink ? '#6fe8e0' : '#2a4a50';
-      ctx.fillRect(prop.x - 6, prop.y - 16, 5, 3);
-      ctx.fillStyle = blink ? '#2a4a50' : '#e8c14a';
-      ctx.fillRect(prop.x + 1, prop.y - 16, 5, 3);
-    } else if (prop.type === 'manhole') {
-      // 井盖（半开）
-      ctx.fillStyle = '#2e3238';
-      ctx.beginPath(); ctx.ellipse(prop.x, prop.y, 11, 8, 0, 0, 7); ctx.fill();
-      ctx.fillStyle = '#4a5058';
-      ctx.beginPath(); ctx.ellipse(prop.x - 3, prop.y - 2, 9, 6, 0, 0, 7); ctx.fill();
-      ctx.strokeStyle = '#6a7078'; ctx.beginPath(); ctx.ellipse(prop.x - 3, prop.y - 2, 9, 6, 0, 0, 7); ctx.stroke();
-      ctx.fillStyle = 'rgba(10,10,14,0.75)';
-      ctx.beginPath(); ctx.ellipse(prop.x + 4, prop.y + 1, 5, 4, 0, 0, 7); ctx.fill();
-    } else if (prop.type === 'overpass') {
-      // 天桥：上行阶梯 + 指示牌
-      ctx.fillStyle = '#3a3f46'; ctx.fillRect(prop.x - 14, prop.y - 4, 28, 8);
-      ctx.fillStyle = '#4d545e';
-      for (let i = 0; i < 5; i++) ctx.fillRect(prop.x - 12 + i * 5, prop.y - 6, 3, 12);
-      ctx.fillStyle = '#2e3a52'; ctx.fillRect(prop.x - 10, prop.y - 18, 20, 8);
-      ctx.fillStyle = '#d8d0c0'; ctx.fillRect(prop.x - 8, prop.y - 15, 12, 1); ctx.fillRect(prop.x - 8, prop.y - 13, 8, 1);
-    } else if (prop.type === 'portal') {
-      const t = G.time * 3;
-      ctx.strokeStyle = '#6fe8e0';
-      for (let i = 0; i < 3; i++) {
-        ctx.globalAlpha = 0.5 - i * 0.13;
-        ctx.beginPath();
-        ctx.arc(prop.x, prop.y, 10 + i * 5 + Math.sin(t + i) * 2, t + i, t + i + 4.5);
-        ctx.stroke();
-      }
-      ctx.globalAlpha = 1;
-    } else if (prop.type === 'note') {
-      ctx.save();
-      ctx.translate(prop.x, prop.y);
-      ctx.rotate(Math.sin(G.time * 2) * 0.1);
-      ctx.fillStyle = '#d8d0c0';
-      ctx.fillRect(-4, -5, 8, 10);
-      ctx.fillStyle = '#6a6a78';
-      ctx.fillRect(-2, -3, 4, 1); ctx.fillRect(-2, -1, 4, 1); ctx.fillRect(-2, 1, 3, 1);
-      ctx.restore();
-    } else if (prop.type === 'story') {
-      // 回忆点：旧照片
-      ctx.save();
-      ctx.translate(prop.x, prop.y);
-      ctx.rotate(Math.sin(G.time * 1.6) * 0.06);
-      ctx.fillStyle = prop.read ? '#8a8a92' : '#e8e4da';
-      ctx.fillRect(-5, -6, 10, 12);
-      ctx.fillStyle = '#4a4a54';
-      ctx.fillRect(-4, -5, 8, 8);
-      ctx.fillStyle = prop.read ? '#6a6a72' : '#c8a04a';
-      ctx.fillRect(-3, -4, 6, 5);
-      ctx.fillStyle = prop.read ? 'rgba(106,106,120,0.5)' : 'rgba(232,193,85,0.55)';
-      ctx.fillRect(-8, -8, 16, 16);
-      ctx.restore();
-    }
+    const reg = prop.region ? map.regionByKey.get(prop.region) : null;
+    const destReg = prop.dest ? map.regionByKey.get(prop.dest) : null;
+    drawPropAt(ctx, prop, {
+      time: G.time,
+      stock: reg && reg.stock ? reg.stock : null,
+      player: G.player,
+      contracted: !!(G.run && G.run.contract),
+      destLevel: destReg ? (destReg.level || 0) : 0,
+    });
   }
 }
 

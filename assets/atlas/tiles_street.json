@@ -1,0 +1,416 @@
+{
+  "image": "tiles_street.png",
+  "tileSize": 16,
+  "scale": 1,
+  "source": "../tiles/street/",
+  "tiles": [
+    {
+      "name": "tiles/street/floor.png",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面 1"
+    },
+    {
+      "name": "tiles/street/floor_2.png",
+      "x": 18,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面 2"
+    },
+    {
+      "name": "tiles/street/floor_3.png",
+      "x": 36,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面 3"
+    },
+    {
+      "name": "tiles/street/carpet.png",
+      "x": 54,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 红毯"
+    },
+    {
+      "name": "tiles/street/wall.png",
+      "x": 72,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙"
+    },
+    {
+      "name": "tiles/street/wall_window.png",
+      "x": 90,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 窗"
+    },
+    {
+      "name": "tiles/street/wall_poster.png",
+      "x": 108,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 海报"
+    },
+    {
+      "name": "tiles/street/wall_graffiti.png",
+      "x": 126,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 涂鸦"
+    },
+    {
+      "name": "tiles/street/wall_crack.png",
+      "x": 144,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 裂缝"
+    },
+    {
+      "name": "tiles/street/wall_sign.png",
+      "x": 162,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 指示牌"
+    },
+    {
+      "name": "tiles/street/wall_neon.png",
+      "x": 180,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 霓虹招牌"
+    },
+    {
+      "name": "tiles/street/wall_whiteboard.png",
+      "x": 198,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 白板"
+    },
+    {
+      "name": "tiles/street/wall_painting.png",
+      "x": 216,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 挂画"
+    },
+    {
+      "name": "tiles/street/wall_banner.png",
+      "x": 234,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 横幅"
+    },
+    {
+      "name": "tiles/street/wall_elevator.png",
+      "x": 0,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 墙 · 电梯门"
+    },
+    {
+      "name": "tiles/street/column.png",
+      "x": 18,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 柱子"
+    },
+    {
+      "name": "tiles/street/crate.png",
+      "x": 36,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 木箱"
+    },
+    {
+      "name": "tiles/street/desk.png",
+      "x": 54,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 办公桌"
+    },
+    {
+      "name": "tiles/street/car.png",
+      "x": 72,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 报废车"
+    },
+    {
+      "name": "tiles/street/rail.png",
+      "x": 90,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 护栏"
+    },
+    {
+      "name": "tiles/street/pump.png",
+      "x": 108,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 加油机"
+    },
+    {
+      "name": "tiles/street/rubble.png",
+      "x": 126,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 瓦砾"
+    },
+    {
+      "name": "tiles/street/hydrant.png",
+      "x": 144,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 消防栓"
+    },
+    {
+      "name": "tiles/street/sand.png",
+      "x": 162,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 沙地"
+    },
+    {
+      "name": "tiles/street/meeting_table.png",
+      "x": 180,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 会议长桌"
+    },
+    {
+      "name": "tiles/street/cabinet.png",
+      "x": 198,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 档案柜 / 机柜"
+    },
+    {
+      "name": "tiles/street/cooler.png",
+      "x": 216,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 饮水机 / 空调"
+    },
+    {
+      "name": "tiles/street/vending_machine.png",
+      "x": 234,
+      "y": 18,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 室外售货机"
+    },
+    {
+      "name": "tiles/street/trash_can.png",
+      "x": 0,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 垃圾桶"
+    },
+    {
+      "name": "tiles/street/phone_booth.png",
+      "x": 18,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 电话亭"
+    },
+    {
+      "name": "tiles/street/mailbox.png",
+      "x": 36,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 邮筒"
+    },
+    {
+      "name": "tiles/street/tire_stack.png",
+      "x": 54,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 轮胎堆"
+    },
+    {
+      "name": "tiles/street/dead_tree.png",
+      "x": 72,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 枯树"
+    },
+    {
+      "name": "tiles/street/sandbags.png",
+      "x": 90,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 沙袋"
+    },
+    {
+      "name": "tiles/street/campfire.png",
+      "x": 108,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 篝火"
+    },
+    {
+      "name": "tiles/street/road_sign.png",
+      "x": 126,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 路牌"
+    },
+    {
+      "name": "tiles/street/stall.png",
+      "x": 144,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 路边摊"
+    },
+    {
+      "name": "tiles/street/potted_plant.png",
+      "x": 162,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 盆栽"
+    },
+    {
+      "name": "tiles/street/decal_puddle.png",
+      "x": 180,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面痕迹 · 水洼"
+    },
+    {
+      "name": "tiles/street/decal_blood.png",
+      "x": 198,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面痕迹 · 血迹"
+    },
+    {
+      "name": "tiles/street/decal_shells.png",
+      "x": 216,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面痕迹 · 弹壳"
+    },
+    {
+      "name": "tiles/street/decal_traffic_cone.png",
+      "x": 234,
+      "y": 36,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面痕迹 · 交通锥"
+    },
+    {
+      "name": "tiles/street/decal_grate.png",
+      "x": 0,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面痕迹 · 格栅"
+    },
+    {
+      "name": "tiles/street/decal_scorch.png",
+      "x": 18,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 地面痕迹 · 焦痕"
+    },
+    {
+      "name": "tiles/street/road.png",
+      "x": 36,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 公路路面"
+    },
+    {
+      "name": "tiles/street/rails.png",
+      "x": 54,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 铁轨"
+    },
+    {
+      "name": "tiles/street/glass.png",
+      "x": 72,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 玻璃隔断"
+    },
+    {
+      "name": "tiles/street/street_lamp.png",
+      "x": 90,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 路灯"
+    },
+    {
+      "name": "tiles/street/street_lamp_broken.png",
+      "x": 108,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 路灯 · 被打灭"
+    },
+    {
+      "name": "tiles/street/gate_locked.png",
+      "x": 126,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 闸门 · 落下"
+    },
+    {
+      "name": "tiles/street/gate_open.png",
+      "x": 144,
+      "y": 54,
+      "w": 16,
+      "h": 16,
+      "label": "室外街道 · 闸门 · 敞开"
+    }
+  ]
+}

@@ -4,3 +4,5 @@ node_modules/
 *.log
 .vscode/
 .idea/
+# 素材包里的 zip 是本地产物，可从 assets/ 目录内容重新打包
+assets/*.zip
